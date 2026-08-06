@@ -62,7 +62,11 @@ the jnw original: a unit transistor is 43.5 um wide instead of 49.5,
 12% smaller, with the double diffusion contacts kept. The route grids
 stay at 30/40 — shrinking them breaks the 0.17 um contact minimum and
 walks coordinates off the 5 nm grid, so with this pattern architecture
-the grid is effectively minimum.
+the grid is effectively minimum. A square grid was also tried: 30/30
+drives the contacts under the same minimum, and 40/40 grows every cell
+33% in x. The rectangular grid is deliberate — the vertical pitch
+carries the contact and strap stack, the horizontal pitch only carries
+track spacing, and each sits at its own DRC floor.
 
 ## Capacitors
 
