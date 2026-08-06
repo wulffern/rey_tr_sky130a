@@ -22216,6 +22216,64 @@
                             "class": "Rect",
                             "layer": "M1",
                             "net": "",
+                            "x1": 36000,
+                            "x2": 43500,
+                            "y1": 18500,
+                            "y2": 21500
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M1",
+                            "net": "",
+                            "x1": 43500,
+                            "x2": 63000,
+                            "y1": 18500,
+                            "y2": 21500
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M1",
+                            "net": "",
+                            "x1": 43500,
+                            "x2": 46500,
+                            "y1": 18500,
+                            "y2": 21500
+                        },
+                        {
+                            "class": "Text",
+                            "layer": "TXT",
+                            "name": "Y",
+                            "net": "",
+                            "x1": 31500,
+                            "x2": 31500,
+                            "y1": 18500,
+                            "y2": 18500
+                        }
+                    ],
+                    "class": "cIcCore::Route",
+                    "has_pr": false,
+                    "layer": "PR",
+                    "libcell": false,
+                    "libpath": "",
+                    "meta": {
+                    },
+                    "name": "Y",
+                    "net": "",
+                    "physicalOnly": false,
+                    "x1": 31500,
+                    "x2": 63000,
+                    "y1": 18500,
+                    "y2": 21500
+                },
+                {
+                    "abstract": false,
+                    "boundaryIgnoreRouting": false,
+                    "cellused": true,
+                    "children": [
+                        {
+                            "class": "Rect",
+                            "layer": "M1",
+                            "net": "",
                             "x1": 19500,
                             "x2": 25500,
                             "y1": 11500,
@@ -22420,64 +22478,6 @@
                     "x2": 63000,
                     "y1": 2500,
                     "y2": 5500
-                },
-                {
-                    "abstract": false,
-                    "boundaryIgnoreRouting": false,
-                    "cellused": true,
-                    "children": [
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 36000,
-                            "x2": 43500,
-                            "y1": 18500,
-                            "y2": 21500
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 43500,
-                            "x2": 63000,
-                            "y1": 18500,
-                            "y2": 21500
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 43500,
-                            "x2": 46500,
-                            "y1": 18500,
-                            "y2": 21500
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "Y",
-                            "net": "",
-                            "x1": 31500,
-                            "x2": 31500,
-                            "y1": 18500,
-                            "y2": 18500
-                        }
-                    ],
-                    "class": "cIcCore::Route",
-                    "has_pr": false,
-                    "layer": "PR",
-                    "libcell": false,
-                    "libpath": "",
-                    "meta": {
-                    },
-                    "name": "Y",
-                    "net": "",
-                    "physicalOnly": false,
-                    "x1": 31500,
-                    "x2": 63000,
-                    "y1": 18500,
-                    "y2": 21500
                 },
                 {
                     "class": "Port",
@@ -27157,6 +27157,64 @@
                             "class": "Rect",
                             "layer": "M1",
                             "net": "",
+                            "x1": 36000,
+                            "x2": 43500,
+                            "y1": 18500,
+                            "y2": 21500
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M1",
+                            "net": "",
+                            "x1": 43500,
+                            "x2": 63000,
+                            "y1": 18500,
+                            "y2": 21500
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M1",
+                            "net": "",
+                            "x1": 43500,
+                            "x2": 46500,
+                            "y1": 18500,
+                            "y2": 21500
+                        },
+                        {
+                            "class": "Text",
+                            "layer": "TXT",
+                            "name": "Y",
+                            "net": "",
+                            "x1": 31500,
+                            "x2": 31500,
+                            "y1": 18500,
+                            "y2": 18500
+                        }
+                    ],
+                    "class": "cIcCore::Route",
+                    "has_pr": false,
+                    "layer": "PR",
+                    "libcell": false,
+                    "libpath": "",
+                    "meta": {
+                    },
+                    "name": "Y",
+                    "net": "",
+                    "physicalOnly": false,
+                    "x1": 31500,
+                    "x2": 63000,
+                    "y1": 18500,
+                    "y2": 21500
+                },
+                {
+                    "abstract": false,
+                    "boundaryIgnoreRouting": false,
+                    "cellused": true,
+                    "children": [
+                        {
+                            "class": "Rect",
+                            "layer": "M1",
+                            "net": "",
                             "x1": 34500,
                             "x2": 37500,
                             "y1": 10500,
@@ -27227,64 +27285,6 @@
                     "x2": 64500,
                     "y1": 10500,
                     "y2": 13500
-                },
-                {
-                    "abstract": false,
-                    "boundaryIgnoreRouting": false,
-                    "cellused": true,
-                    "children": [
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 36000,
-                            "x2": 43500,
-                            "y1": 18500,
-                            "y2": 21500
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 43500,
-                            "x2": 63000,
-                            "y1": 18500,
-                            "y2": 21500
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M1",
-                            "net": "",
-                            "x1": 43500,
-                            "x2": 46500,
-                            "y1": 18500,
-                            "y2": 21500
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "Y",
-                            "net": "",
-                            "x1": 31500,
-                            "x2": 31500,
-                            "y1": 18500,
-                            "y2": 18500
-                        }
-                    ],
-                    "class": "cIcCore::Route",
-                    "has_pr": false,
-                    "layer": "PR",
-                    "libcell": false,
-                    "libpath": "",
-                    "meta": {
-                    },
-                    "name": "Y",
-                    "net": "",
-                    "physicalOnly": false,
-                    "x1": 31500,
-                    "x2": 63000,
-                    "y1": 18500,
-                    "y2": 21500
                 },
                 {
                     "abstract": false,
