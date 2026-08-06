@@ -55,6 +55,15 @@ minimum. Adjacent resistors can share a guard wall by placing them
 with `xoffset=-2.4`, as `REYTR_TOP` demonstrates: four resistors, five
 guard walls instead of eight.
 
+## Cell size
+
+The transistor pattern is 16 columns, two filler columns narrower than
+the jnw original: a unit transistor is 43.5 um wide instead of 49.5,
+12% smaller, with the double diffusion contacts kept. The route grids
+stay at 30/40 — shrinking them breaks the 0.17 um contact minimum and
+walks coordinates off the 5 nm grid, so with this pattern architecture
+the grid is effectively minimum.
+
 ## Capacitors
 
 `CAPX1` is one rey transistor unit wide (88 800 nm) so capacitor rows

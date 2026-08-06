@@ -3,36 +3,36 @@ tech sky130A
 magscale 1 2
 timestamp 1785967200
 << checkpaint >>
-rect 0 0 1980 1920
+rect 0 0 1740 1920
 << locali >>
-rect 360 610 510 670
-rect 510 210 720 270
-rect 510 210 570 670
-rect 270 130 450 190
-rect 270 290 450 350
-rect 630 690 810 750
+rect 240 610 390 670
+rect 390 210 600 270
+rect 390 210 450 670
+rect 150 130 330 190
+rect 150 290 330 350
+rect 510 690 690 750
 << m3 >>
-rect 1170 0 1346 1920
-rect 630 0 806 1920
-rect 1170 0 1346 1920
-rect 630 0 806 1920
+rect 1050 0 1226 1920
+rect 510 0 686 1920
+rect 1050 0 1226 1920
+rect 510 0 686 1920
 use REYTR_NRX1_CV XA1 
 transform 1 0 0 0 1 0
-box 0 0 1980 480
+box 0 0 1740 480
 use REYTR_IVX8_CV XA2 
 transform 1 0 0 0 1 480
-box 0 480 1980 1920
+box 0 480 1740 1920
 << labels >>
-flabel locali s 270 130 450 190 0 FreeSans 400 0 0 0 A
+flabel locali s 150 130 330 190 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
-flabel locali s 270 290 450 350 0 FreeSans 400 0 0 0 B
+flabel locali s 150 290 330 350 0 FreeSans 400 0 0 0 B
 port 2 nsew signal bidirectional
-flabel locali s 630 690 810 750 0 FreeSans 400 0 0 0 Y
+flabel locali s 510 690 690 750 0 FreeSans 400 0 0 0 Y
 port 3 nsew signal bidirectional
-flabel m3 s 1170 0 1346 1920 0 FreeSans 400 0 0 0 AVDD
+flabel m3 s 1050 0 1226 1920 0 FreeSans 400 0 0 0 AVDD
 port 4 nsew signal bidirectional
-flabel m3 s 630 0 806 1920 0 FreeSans 400 0 0 0 AVSS
+flabel m3 s 510 0 686 1920 0 FreeSans 400 0 0 0 AVSS
 port 5 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 1980 1920
+string FIXED_BBOX 0 0 1740 1920
 << end >>
