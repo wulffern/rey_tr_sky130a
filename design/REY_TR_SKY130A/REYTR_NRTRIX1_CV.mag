@@ -8,13 +8,6 @@ rect 0 0 1980 640
 rect 720 530 870 590
 rect 870 530 1260 590
 rect 870 530 930 590
-rect 690 210 750 270
-rect 690 370 750 430
-rect 1230 370 1290 430
-rect 1050 50 1260 110
-rect 1050 370 1260 430
-rect 1050 50 1110 430
-rect 630 370 1350 430
 rect 270 290 450 350
 rect 1530 450 1710 510
 rect 270 450 450 510
@@ -47,14 +40,14 @@ use REYTR_PCHDL MP1
 transform 1 0 990 0 1 320
 box 990 320 1980 640
 use REYTR_cut_M1M4_2x1 xcut0 
-transform 1 0 1170 0 1 210
-box 1170 210 1346 278
+transform 1 0 1170 0 1 370
+box 1170 370 1346 438
 use REYTR_cut_M1M4_2x1 xcut1 
-transform 1 0 1170 0 1 210
-box 1170 210 1346 278
-use REYTR_cut_M1M4_2x1 xcut2 
 transform 1 0 630 0 1 50
 box 630 50 806 118
+use REYTR_cut_M1M4_2x1 xcut2 
+transform 1 0 630 0 1 370
+box 630 370 806 438
 << labels >>
 flabel locali s 270 290 450 350 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
@@ -62,7 +55,7 @@ flabel locali s 1530 450 1710 510 0 FreeSans 400 0 0 0 CN
 port 3 nsew signal bidirectional
 flabel locali s 270 450 450 510 0 FreeSans 400 0 0 0 C
 port 2 nsew signal bidirectional
-flabel locali s 270 130 450 190 0 FreeSans 400 0 0 0 RN
+flabel locali s 270 130 450 190 0 FreeSans 400 0 0 0 B
 port 4 nsew signal bidirectional
 flabel locali s 630 530 810 590 0 FreeSans 400 0 0 0 Y
 port 5 nsew signal bidirectional

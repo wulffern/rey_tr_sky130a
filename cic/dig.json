@@ -237,13 +237,13 @@
           "setYoffsetHalf" :  1 ,
           "description" : "Tristate nand, Y = !A if C and !RN, Y =HiZ if CN",
           "beforeRoute" : {
-              "addDirectedRoutes" : [ ["M1","Y","MN1:D-|--MP1:D"],
-                                      ["M1","N2","MP2:S|-MP0:D"],
+              "addDirectedRoutes" : [ ["M1","N2","MP2:S|-MP0:D"],
                                       ["M1","N2","MN0:D-MP0:D"],
                                       ["PO","A","MN0:G-MP0:G"],
                                       ["PO","RN","MN2:G-MP2:G"]
                                     ],
               "addConnectivityRoutes" : [
+                  ["M1","^Y$","-|--"],
                   ["M1","^N1$","||","onTopL"],
                   ["M1","^N2$","||","onTopL","","MN"],
                   ["M1","^N2$","||","onTopL","","MP(0|1)"]
@@ -255,6 +255,15 @@
           }
         },
 
+        //- NOT BUILT, AND THE RECIPE DOES NOT WORK. Nothing instantiates
+        //- this cell, so ciccreator never generates it and no check has
+        //- ever seen it. Putting it in TOP produces a layout that shorts
+        //- Y to both rails and merges N1, N2 and Y: the single Y route
+        //- below crosses the diffusion straps of the devices between its
+        //- endpoints. The spice was wrong too, MP2 tied N2 straight to
+        //- AVDD, which is a parallel pull-up on a cell named NOR; that
+        //- much is fixed in dig.spi. The layout needs designing, not
+        //- translating, so it stays out of TOP until someone does that
         { "name": "NRTRIX1_CV",
           "class" : "Layout::LayoutDigitalCell",
           "setYoffsetHalf" :  1 ,
@@ -390,13 +399,14 @@
           "beforeRoute" : {
               "addDirectedRoutes" : [ ["M1","C","MN0:S-|--MP0:S"],
                                       ["PO","C","MN0:G-MP0:G"],
-                                      ["M1","A","MN2:D-|--MP2:D"],
-                                      ["M1","B","MN2:S-|--MP2:S"],
+
                                       ["M1","C","MN0:G||MN1:G"],
                                       ["M1","CN","MN2:G-|--MN0:S"],
                                       ["M1","C","MP0:G-|MP2:G"],
                                       ["M1","NC","MP1:S-|--MP1:G"]
-                                    ]
+                                    ],
+              "addConnectivityRoutes" : [ ["M1","^A$","-|--"],
+                                          ["M1","^B$","-|--"] ]
           },
           "afterRoute"  : {
               "addPortOnRects" : [  ["C","M1", "MP0:G"],["B","M1","MP2:S"],["A","M1","MN2:D"]

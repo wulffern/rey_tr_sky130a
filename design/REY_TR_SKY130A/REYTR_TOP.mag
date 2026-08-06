@@ -3,22 +3,22 @@ tech sky130A
 magscale 1 2
 timestamp 1785967200
 << checkpaint >>
-rect -1200 -1200 43908 7600
+rect -1200 -1200 45888 7600
 << locali >>
-rect 43132 -600 43308 7000
-rect -600 -600 43308 -424
-rect -600 6824 43308 7000
+rect 45112 -600 45288 7000
+rect -600 -600 45288 -424
+rect -600 6824 45288 7000
 rect -600 -600 -424 7000
-rect 43132 -600 43308 7000
+rect 45112 -600 45288 7000
 rect 12136 -600 13472 128
 rect 13360 -600 15128 128
 rect 15016 -600 17648 128
 rect 17536 -600 21896 128
-rect 43732 -1200 43908 7600
-rect -1200 -1200 43908 -1024
-rect -1200 7424 43908 7600
+rect 45712 -1200 45888 7600
+rect -1200 -1200 45888 -1024
+rect -1200 7424 45888 7600
 rect -1200 -1200 -1024 7600
-rect 43732 -1200 43908 7600
+rect 45712 -1200 45888 7600
 << m3 >>
 rect 630 -600 806 320
 rect 630 -600 806 640
@@ -57,11 +57,13 @@ rect 31062 -600 31238 4480
 rect 33586 -600 33762 320
 rect 33586 -600 33762 1120
 rect 35022 -600 35198 320
-rect 35022 -600 35198 3840
+rect 35022 -600 35198 960
 rect 37546 -600 37722 320
-rect 37546 -600 37722 2240
+rect 37546 -600 37722 3840
 rect 38982 -600 39158 320
-rect 38982 -600 39158 1600
+rect 38982 -600 39158 2240
+rect 41506 -600 41682 320
+rect 41506 -600 41682 1600
 rect 1170 -1200 1346 320
 rect 1170 -1200 1346 640
 rect 1170 -1200 1346 960
@@ -99,11 +101,13 @@ rect 31602 -1200 31778 4480
 rect 33046 -1200 33222 320
 rect 33046 -1200 33222 1120
 rect 35562 -1200 35738 320
-rect 35562 -1200 35738 3840
+rect 35562 -1200 35738 960
 rect 37006 -1200 37182 320
-rect 37006 -1200 37182 2240
+rect 37006 -1200 37182 3840
 rect 39522 -1200 39698 320
-rect 39522 -1200 39698 1600
+rect 39522 -1200 39698 2240
+rect 40966 -1200 41142 320
+rect 40966 -1200 41142 1600
 use REYTR_TAPCELLB_CV XA0 
 transform 1 0 0 0 1 0
 box 0 0 1980 320
@@ -224,30 +228,36 @@ box 34392 0 36372 320
 use REYTR_IVTRICX1_CV XS1 
 transform -1 0 34392 0 1 320
 box 34392 320 36372 1120
-use REYTR_TAPCELLB_CV XT0 
+use REYTR_TAPCELLB_CV XW0 
 transform 1 0 34392 0 1 0
 box 34392 0 36372 320
-use REYTR_DFQNX1_CV XT1 
+use REYTR_TGPD_CV XW2 
 transform 1 0 34392 0 1 320
-box 34392 320 36372 3840
-use REYTR_TAPCELLB_CV XU0 
+box 34392 320 36372 960
+use REYTR_TAPCELLB_CV XT0 
 transform -1 0 38352 0 1 0
 box 38352 0 40332 320
-use REYTR_EOX1_CV XU1 
+use REYTR_DFQNX1_CV XT1 
 transform -1 0 38352 0 1 320
-box 38352 320 40332 2240
-use REYTR_TAPCELLB_CV XV0 
+box 38352 320 40332 3840
+use REYTR_TAPCELLB_CV XU0 
 transform 1 0 38352 0 1 0
 box 38352 0 40332 320
-use REYTR_LSX1_CV XV1 
+use REYTR_EOX1_CV XU1 
 transform 1 0 38352 0 1 320
-box 38352 320 40332 1600
+box 38352 320 40332 2240
+use REYTR_TAPCELLB_CV XV0 
+transform -1 0 42312 0 1 0
+box 42312 0 44292 320
+use REYTR_LSX1_CV XV1 
+transform -1 0 42312 0 1 320
+box 42312 320 44292 1600
 use REYTR_CAPX1 XO1 
-transform -1 0 42708 0 1 0
-box 42708 0 44484 1080
+transform 1 0 42912 0 1 0
+box 42912 0 44688 1080
 use REYTR_CAPX1 XO0 
-transform -1 0 42708 0 1 1560
-box 42708 1560 44484 2640
+transform 1 0 42912 0 1 1560
+box 42912 1560 44688 2640
 use REYTR_cut_M1M4_2x2 xcut0 
 transform 1 0 630 0 1 -600
 box 630 -600 806 -424
@@ -375,20 +385,20 @@ use REYTR_cut_M1M4_2x2 xcut41
 transform 1 0 38982 0 1 -600
 box 38982 -600 39158 -424
 use REYTR_cut_M1M4_2x2 xcut42 
-transform 1 0 1170 0 1 -1200
-box 1170 -1200 1346 -1024
+transform 1 0 41506 0 1 -600
+box 41506 -600 41682 -424
 use REYTR_cut_M1M4_2x2 xcut43 
-transform 1 0 1170 0 1 -1200
-box 1170 -1200 1346 -1024
+transform 1 0 41506 0 1 -600
+box 41506 -600 41682 -424
 use REYTR_cut_M1M4_2x2 xcut44 
 transform 1 0 1170 0 1 -1200
 box 1170 -1200 1346 -1024
 use REYTR_cut_M1M4_2x2 xcut45 
-transform 1 0 2614 0 1 -1200
-box 2614 -1200 2790 -1024
+transform 1 0 1170 0 1 -1200
+box 1170 -1200 1346 -1024
 use REYTR_cut_M1M4_2x2 xcut46 
-transform 1 0 2614 0 1 -1200
-box 2614 -1200 2790 -1024
+transform 1 0 1170 0 1 -1200
+box 1170 -1200 1346 -1024
 use REYTR_cut_M1M4_2x2 xcut47 
 transform 1 0 2614 0 1 -1200
 box 2614 -1200 2790 -1024
@@ -399,17 +409,17 @@ use REYTR_cut_M1M4_2x2 xcut49
 transform 1 0 2614 0 1 -1200
 box 2614 -1200 2790 -1024
 use REYTR_cut_M1M4_2x2 xcut50 
-transform 1 0 5130 0 1 -1200
-box 5130 -1200 5306 -1024
+transform 1 0 2614 0 1 -1200
+box 2614 -1200 2790 -1024
 use REYTR_cut_M1M4_2x2 xcut51 
+transform 1 0 2614 0 1 -1200
+box 2614 -1200 2790 -1024
+use REYTR_cut_M1M4_2x2 xcut52 
 transform 1 0 5130 0 1 -1200
 box 5130 -1200 5306 -1024
-use REYTR_cut_M1M4_2x2 xcut52 
-transform 1 0 6574 0 1 -1200
-box 6574 -1200 6750 -1024
 use REYTR_cut_M1M4_2x2 xcut53 
-transform 1 0 6574 0 1 -1200
-box 6574 -1200 6750 -1024
+transform 1 0 5130 0 1 -1200
+box 5130 -1200 5306 -1024
 use REYTR_cut_M1M4_2x2 xcut54 
 transform 1 0 6574 0 1 -1200
 box 6574 -1200 6750 -1024
@@ -420,44 +430,44 @@ use REYTR_cut_M1M4_2x2 xcut56
 transform 1 0 6574 0 1 -1200
 box 6574 -1200 6750 -1024
 use REYTR_cut_M1M4_2x2 xcut57 
-transform 1 0 9090 0 1 -1200
-box 9090 -1200 9266 -1024
+transform 1 0 6574 0 1 -1200
+box 6574 -1200 6750 -1024
 use REYTR_cut_M1M4_2x2 xcut58 
+transform 1 0 6574 0 1 -1200
+box 6574 -1200 6750 -1024
+use REYTR_cut_M1M4_2x2 xcut59 
 transform 1 0 9090 0 1 -1200
 box 9090 -1200 9266 -1024
-use REYTR_cut_M1M4_2x2 xcut59 
-transform 1 0 10534 0 1 -1200
-box 10534 -1200 10710 -1024
 use REYTR_cut_M1M4_2x2 xcut60 
+transform 1 0 9090 0 1 -1200
+box 9090 -1200 9266 -1024
+use REYTR_cut_M1M4_2x2 xcut61 
 transform 1 0 10534 0 1 -1200
 box 10534 -1200 10710 -1024
-use REYTR_cut_M1M4_2x2 xcut61 
-transform 1 0 23682 0 1 -1200
-box 23682 -1200 23858 -1024
 use REYTR_cut_M1M4_2x2 xcut62 
+transform 1 0 10534 0 1 -1200
+box 10534 -1200 10710 -1024
+use REYTR_cut_M1M4_2x2 xcut63 
 transform 1 0 23682 0 1 -1200
 box 23682 -1200 23858 -1024
-use REYTR_cut_M1M4_2x2 xcut63 
-transform 1 0 25126 0 1 -1200
-box 25126 -1200 25302 -1024
 use REYTR_cut_M1M4_2x2 xcut64 
-transform 1 0 25126 0 1 -1200
-box 25126 -1200 25302 -1024
+transform 1 0 23682 0 1 -1200
+box 23682 -1200 23858 -1024
 use REYTR_cut_M1M4_2x2 xcut65 
 transform 1 0 25126 0 1 -1200
 box 25126 -1200 25302 -1024
 use REYTR_cut_M1M4_2x2 xcut66 
-transform 1 0 27642 0 1 -1200
-box 27642 -1200 27818 -1024
+transform 1 0 25126 0 1 -1200
+box 25126 -1200 25302 -1024
 use REYTR_cut_M1M4_2x2 xcut67 
+transform 1 0 25126 0 1 -1200
+box 25126 -1200 25302 -1024
+use REYTR_cut_M1M4_2x2 xcut68 
 transform 1 0 27642 0 1 -1200
 box 27642 -1200 27818 -1024
-use REYTR_cut_M1M4_2x2 xcut68 
-transform 1 0 29086 0 1 -1200
-box 29086 -1200 29262 -1024
 use REYTR_cut_M1M4_2x2 xcut69 
-transform 1 0 29086 0 1 -1200
-box 29086 -1200 29262 -1024
+transform 1 0 27642 0 1 -1200
+box 27642 -1200 27818 -1024
 use REYTR_cut_M1M4_2x2 xcut70 
 transform 1 0 29086 0 1 -1200
 box 29086 -1200 29262 -1024
@@ -465,11 +475,11 @@ use REYTR_cut_M1M4_2x2 xcut71
 transform 1 0 29086 0 1 -1200
 box 29086 -1200 29262 -1024
 use REYTR_cut_M1M4_2x2 xcut72 
-transform 1 0 31602 0 1 -1200
-box 31602 -1200 31778 -1024
+transform 1 0 29086 0 1 -1200
+box 29086 -1200 29262 -1024
 use REYTR_cut_M1M4_2x2 xcut73 
-transform 1 0 31602 0 1 -1200
-box 31602 -1200 31778 -1024
+transform 1 0 29086 0 1 -1200
+box 29086 -1200 29262 -1024
 use REYTR_cut_M1M4_2x2 xcut74 
 transform 1 0 31602 0 1 -1200
 box 31602 -1200 31778 -1024
@@ -477,34 +487,46 @@ use REYTR_cut_M1M4_2x2 xcut75
 transform 1 0 31602 0 1 -1200
 box 31602 -1200 31778 -1024
 use REYTR_cut_M1M4_2x2 xcut76 
-transform 1 0 33046 0 1 -1200
-box 33046 -1200 33222 -1024
+transform 1 0 31602 0 1 -1200
+box 31602 -1200 31778 -1024
 use REYTR_cut_M1M4_2x2 xcut77 
+transform 1 0 31602 0 1 -1200
+box 31602 -1200 31778 -1024
+use REYTR_cut_M1M4_2x2 xcut78 
 transform 1 0 33046 0 1 -1200
 box 33046 -1200 33222 -1024
-use REYTR_cut_M1M4_2x2 xcut78 
-transform 1 0 35562 0 1 -1200
-box 35562 -1200 35738 -1024
 use REYTR_cut_M1M4_2x2 xcut79 
+transform 1 0 33046 0 1 -1200
+box 33046 -1200 33222 -1024
+use REYTR_cut_M1M4_2x2 xcut80 
 transform 1 0 35562 0 1 -1200
 box 35562 -1200 35738 -1024
-use REYTR_cut_M1M4_2x2 xcut80 
-transform 1 0 37006 0 1 -1200
-box 37006 -1200 37182 -1024
 use REYTR_cut_M1M4_2x2 xcut81 
+transform 1 0 35562 0 1 -1200
+box 35562 -1200 35738 -1024
+use REYTR_cut_M1M4_2x2 xcut82 
 transform 1 0 37006 0 1 -1200
 box 37006 -1200 37182 -1024
-use REYTR_cut_M1M4_2x2 xcut82 
-transform 1 0 39522 0 1 -1200
-box 39522 -1200 39698 -1024
 use REYTR_cut_M1M4_2x2 xcut83 
+transform 1 0 37006 0 1 -1200
+box 37006 -1200 37182 -1024
+use REYTR_cut_M1M4_2x2 xcut84 
 transform 1 0 39522 0 1 -1200
 box 39522 -1200 39698 -1024
+use REYTR_cut_M1M4_2x2 xcut85 
+transform 1 0 39522 0 1 -1200
+box 39522 -1200 39698 -1024
+use REYTR_cut_M1M4_2x2 xcut86 
+transform 1 0 40966 0 1 -1200
+box 40966 -1200 41142 -1024
+use REYTR_cut_M1M4_2x2 xcut87 
+transform 1 0 40966 0 1 -1200
+box 40966 -1200 41142 -1024
 << labels >>
-flabel locali s 43132 -600 43308 7000 0 FreeSans 400 0 0 0 AVSS
+flabel locali s 45112 -600 45288 7000 0 FreeSans 400 0 0 0 AVSS
 port 2 nsew signal bidirectional
-flabel locali s 43732 -1200 43908 7600 0 FreeSans 400 0 0 0 AVDD
+flabel locali s 45712 -1200 45888 7600 0 FreeSans 400 0 0 0 AVDD
 port 1 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX -1200 -1200 43908 7600
+string FIXED_BBOX -1200 -1200 45888 7600
 << end >>

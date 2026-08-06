@@ -348,65 +348,81 @@ N 3360.0 400.0 3380.0 400.0 {lab=AVDD}
 C {devices/lab_pin.sym} 3360.0 400.0 0 0 {name=l149 sig_type=std_logic lab=AVDD }
 N 3360.0 420.0 3380.0 420.0 {lab=AVSS}
 C {devices/lab_pin.sym} 3360.0 420.0 0 0 {name=l150 sig_type=std_logic lab=AVSS }
-C {REY_TR_SKY130A/REYTR_TAPCELLB_CV.sym} 3400 540.0 0 0 {name=XXT0}
+C {REY_TR_SKY130A/REYTR_TAPCELLB_CV.sym} 3400 540.0 0 0 {name=XXW0}
 N 3400.0 500.0 3400.0 520.0 {lab=AVDD}
 C {devices/lab_pin.sym} 3400.0 500.0 3 0 {name=l151 sig_type=std_logic lab=AVDD }
 N 3400.0 580.0 3400.0 560.0 {lab=AVSS}
 C {devices/lab_pin.sym} 3400.0 580.0 1 0 {name=l152 sig_type=std_logic lab=AVSS }
-C {REY_TR_SKY130A/REYTR_DFQNX1_CV.sym} 3400 690.0 0 0 {name=XXT1}
-N 3380.0 630.0 3400.0 630.0 {lab=D39}
-C {devices/lab_pin.sym} 3380.0 630.0 0 0 {name=l153 sig_type=std_logic lab=D39 }
-N 3380.0 690.0 3400.0 690.0 {lab=CK39}
-C {devices/lab_pin.sym} 3380.0 690.0 0 0 {name=l154 sig_type=std_logic lab=CK39 }
-N 3520.0 630.0 3500.0 630.0 {lab=Q39}
-C {devices/lab_pin.sym} 3520.0 630.0 2 0 {name=l155 sig_type=std_logic lab=Q39 }
-N 3520.0 690.0 3500.0 690.0 {lab=QN39}
-C {devices/lab_pin.sym} 3520.0 690.0 2 0 {name=l156 sig_type=std_logic lab=QN39 }
-N 3460.0 580.0 3460.0 600.0 {lab=AVDD}
-C {devices/lab_pin.sym} 3460.0 580.0 3 0 {name=l157 sig_type=std_logic lab=AVDD }
-N 3460.0 740.0 3460.0 720.0 {lab=AVSS}
-C {devices/lab_pin.sym} 3460.0 740.0 1 0 {name=l158 sig_type=std_logic lab=AVSS }
-C {REY_TR_SKY130A/REYTR_TAPCELLB_CV.sym} 3400 920.0 0 0 {name=XXU0}
-N 3400.0 880.0 3400.0 900.0 {lab=AVDD}
-C {devices/lab_pin.sym} 3400.0 880.0 3 0 {name=l159 sig_type=std_logic lab=AVDD }
-N 3400.0 960.0 3400.0 940.0 {lab=AVSS}
-C {devices/lab_pin.sym} 3400.0 960.0 1 0 {name=l160 sig_type=std_logic lab=AVSS }
-C {REY_TR_SKY130A/REYTR_EOX1_CV.sym} 3900 0 0 0 {name=XXU1}
-N 3860.0 0.0 3880.0 0.0 {lab=A40}
-C {devices/lab_pin.sym} 3860.0 0.0 0 0 {name=l161 sig_type=std_logic lab=A40 }
-N 3860.0 20.0 3880.0 20.0 {lab=B40}
-C {devices/lab_pin.sym} 3860.0 20.0 0 0 {name=l162 sig_type=std_logic lab=B40 }
-N 3860.0 40.0 3880.0 40.0 {lab=Y40}
-C {devices/lab_pin.sym} 3860.0 40.0 0 0 {name=l163 sig_type=std_logic lab=Y40 }
-N 3860.0 60.0 3880.0 60.0 {lab=AVDD}
-C {devices/lab_pin.sym} 3860.0 60.0 0 0 {name=l164 sig_type=std_logic lab=AVDD }
-N 3860.0 80.0 3880.0 80.0 {lab=AVSS}
-C {devices/lab_pin.sym} 3860.0 80.0 0 0 {name=l165 sig_type=std_logic lab=AVSS }
-C {REY_TR_SKY130A/REYTR_TAPCELLB_CV.sym} 3900 200.0 0 0 {name=XXV0}
-N 3900.0 160.0 3900.0 180.0 {lab=AVDD}
-C {devices/lab_pin.sym} 3900.0 160.0 3 0 {name=l166 sig_type=std_logic lab=AVDD }
-N 3900.0 240.0 3900.0 220.0 {lab=AVSS}
-C {devices/lab_pin.sym} 3900.0 240.0 1 0 {name=l167 sig_type=std_logic lab=AVSS }
-C {REY_TR_SKY130A/REYTR_LSX1_CV.sym} 3900 350.0 0 0 {name=XXV1}
-N 3730.0 340.0 3750.0 340.0 {lab=A41}
-C {devices/lab_pin.sym} 3730.0 340.0 0 0 {name=l168 sig_type=std_logic lab=A41 }
-N 3730.0 360.0 3750.0 360.0 {lab=AN41}
-C {devices/lab_pin.sym} 3730.0 360.0 0 0 {name=l169 sig_type=std_logic lab=AN41 }
-N 3890.0 360.0 3870.0 360.0 {lab=YN41}
-C {devices/lab_pin.sym} 3890.0 360.0 2 0 {name=l170 sig_type=std_logic lab=YN41 }
-N 3890.0 340.0 3870.0 340.0 {lab=Y41}
-C {devices/lab_pin.sym} 3890.0 340.0 2 0 {name=l171 sig_type=std_logic lab=Y41 }
-N 3730.0 320.0 3750.0 320.0 {lab=AVDD}
-C {devices/lab_pin.sym} 3730.0 320.0 0 0 {name=l172 sig_type=std_logic lab=AVDD }
-N 3730.0 380.0 3750.0 380.0 {lab=AVSS}
-C {devices/lab_pin.sym} 3730.0 380.0 0 0 {name=l173 sig_type=std_logic lab=AVSS }
-C {REY_TR_SKY130A/REYTR_CAPX1.sym} 3900 520.0 0 0 {name=XXO1}
-N 3900.0 440.0 3900.0 460.0 {lab=A26}
-C {devices/lab_pin.sym} 3900.0 440.0 3 0 {name=l174 sig_type=std_logic lab=A26 }
-N 3900.0 550.0 3900.0 530.0 {lab=B26}
-C {devices/lab_pin.sym} 3900.0 550.0 1 0 {name=l175 sig_type=std_logic lab=B26 }
-C {REY_TR_SKY130A/REYTR_CAPX1.sym} 3900 700.0 0 0 {name=XXO0}
-N 3900.0 620.0 3900.0 640.0 {lab=A27}
-C {devices/lab_pin.sym} 3900.0 620.0 3 0 {name=l176 sig_type=std_logic lab=A27 }
-N 3900.0 730.0 3900.0 710.0 {lab=B27}
-C {devices/lab_pin.sym} 3900.0 730.0 1 0 {name=l177 sig_type=std_logic lab=B27 }
+C {REY_TR_SKY130A/REYTR_TGPD_CV.sym} 3400 690.0 0 0 {name=XXW2}
+N 3360.0 690.0 3380.0 690.0 {lab=C43}
+C {devices/lab_pin.sym} 3360.0 690.0 0 0 {name=l153 sig_type=std_logic lab=C43 }
+N 3360.0 710.0 3380.0 710.0 {lab=A43}
+C {devices/lab_pin.sym} 3360.0 710.0 0 0 {name=l154 sig_type=std_logic lab=A43 }
+N 3360.0 730.0 3380.0 730.0 {lab=B43}
+C {devices/lab_pin.sym} 3360.0 730.0 0 0 {name=l155 sig_type=std_logic lab=B43 }
+N 3360.0 750.0 3380.0 750.0 {lab=AVDD}
+C {devices/lab_pin.sym} 3360.0 750.0 0 0 {name=l156 sig_type=std_logic lab=AVDD }
+N 3360.0 770.0 3380.0 770.0 {lab=AVSS}
+C {devices/lab_pin.sym} 3360.0 770.0 0 0 {name=l157 sig_type=std_logic lab=AVSS }
+C {REY_TR_SKY130A/REYTR_TAPCELLB_CV.sym} 3400 890.0 0 0 {name=XXT0}
+N 3400.0 850.0 3400.0 870.0 {lab=AVDD}
+C {devices/lab_pin.sym} 3400.0 850.0 3 0 {name=l158 sig_type=std_logic lab=AVDD }
+N 3400.0 930.0 3400.0 910.0 {lab=AVSS}
+C {devices/lab_pin.sym} 3400.0 930.0 1 0 {name=l159 sig_type=std_logic lab=AVSS }
+C {REY_TR_SKY130A/REYTR_DFQNX1_CV.sym} 3900 0 0 0 {name=XXT1}
+N 3880.0 -60.0 3900.0 -60.0 {lab=D39}
+C {devices/lab_pin.sym} 3880.0 -60.0 0 0 {name=l160 sig_type=std_logic lab=D39 }
+N 3880.0 0.0 3900.0 0.0 {lab=CK39}
+C {devices/lab_pin.sym} 3880.0 0.0 0 0 {name=l161 sig_type=std_logic lab=CK39 }
+N 4020.0 -60.0 4000.0 -60.0 {lab=Q39}
+C {devices/lab_pin.sym} 4020.0 -60.0 2 0 {name=l162 sig_type=std_logic lab=Q39 }
+N 4020.0 0.0 4000.0 0.0 {lab=QN39}
+C {devices/lab_pin.sym} 4020.0 0.0 2 0 {name=l163 sig_type=std_logic lab=QN39 }
+N 3960.0 -110.0 3960.0 -90.0 {lab=AVDD}
+C {devices/lab_pin.sym} 3960.0 -110.0 3 0 {name=l164 sig_type=std_logic lab=AVDD }
+N 3960.0 50.0 3960.0 30.0 {lab=AVSS}
+C {devices/lab_pin.sym} 3960.0 50.0 1 0 {name=l165 sig_type=std_logic lab=AVSS }
+C {REY_TR_SKY130A/REYTR_TAPCELLB_CV.sym} 3900 230.0 0 0 {name=XXU0}
+N 3900.0 190.0 3900.0 210.0 {lab=AVDD}
+C {devices/lab_pin.sym} 3900.0 190.0 3 0 {name=l166 sig_type=std_logic lab=AVDD }
+N 3900.0 270.0 3900.0 250.0 {lab=AVSS}
+C {devices/lab_pin.sym} 3900.0 270.0 1 0 {name=l167 sig_type=std_logic lab=AVSS }
+C {REY_TR_SKY130A/REYTR_EOX1_CV.sym} 3900 380.0 0 0 {name=XXU1}
+N 3860.0 380.0 3880.0 380.0 {lab=A40}
+C {devices/lab_pin.sym} 3860.0 380.0 0 0 {name=l168 sig_type=std_logic lab=A40 }
+N 3860.0 400.0 3880.0 400.0 {lab=B40}
+C {devices/lab_pin.sym} 3860.0 400.0 0 0 {name=l169 sig_type=std_logic lab=B40 }
+N 3860.0 420.0 3880.0 420.0 {lab=Y40}
+C {devices/lab_pin.sym} 3860.0 420.0 0 0 {name=l170 sig_type=std_logic lab=Y40 }
+N 3860.0 440.0 3880.0 440.0 {lab=AVDD}
+C {devices/lab_pin.sym} 3860.0 440.0 0 0 {name=l171 sig_type=std_logic lab=AVDD }
+N 3860.0 460.0 3880.0 460.0 {lab=AVSS}
+C {devices/lab_pin.sym} 3860.0 460.0 0 0 {name=l172 sig_type=std_logic lab=AVSS }
+C {REY_TR_SKY130A/REYTR_TAPCELLB_CV.sym} 3900 580.0 0 0 {name=XXV0}
+N 3900.0 540.0 3900.0 560.0 {lab=AVDD}
+C {devices/lab_pin.sym} 3900.0 540.0 3 0 {name=l173 sig_type=std_logic lab=AVDD }
+N 3900.0 620.0 3900.0 600.0 {lab=AVSS}
+C {devices/lab_pin.sym} 3900.0 620.0 1 0 {name=l174 sig_type=std_logic lab=AVSS }
+C {REY_TR_SKY130A/REYTR_LSX1_CV.sym} 3900 730.0 0 0 {name=XXV1}
+N 3730.0 720.0 3750.0 720.0 {lab=A41}
+C {devices/lab_pin.sym} 3730.0 720.0 0 0 {name=l175 sig_type=std_logic lab=A41 }
+N 3730.0 740.0 3750.0 740.0 {lab=AN41}
+C {devices/lab_pin.sym} 3730.0 740.0 0 0 {name=l176 sig_type=std_logic lab=AN41 }
+N 3890.0 740.0 3870.0 740.0 {lab=YN41}
+C {devices/lab_pin.sym} 3890.0 740.0 2 0 {name=l177 sig_type=std_logic lab=YN41 }
+N 3890.0 720.0 3870.0 720.0 {lab=Y41}
+C {devices/lab_pin.sym} 3890.0 720.0 2 0 {name=l178 sig_type=std_logic lab=Y41 }
+N 3730.0 700.0 3750.0 700.0 {lab=AVDD}
+C {devices/lab_pin.sym} 3730.0 700.0 0 0 {name=l179 sig_type=std_logic lab=AVDD }
+N 3730.0 760.0 3750.0 760.0 {lab=AVSS}
+C {devices/lab_pin.sym} 3730.0 760.0 0 0 {name=l180 sig_type=std_logic lab=AVSS }
+C {REY_TR_SKY130A/REYTR_CAPX1.sym} 3900 900.0 0 0 {name=XXO1}
+N 3900.0 820.0 3900.0 840.0 {lab=A26}
+C {devices/lab_pin.sym} 3900.0 820.0 3 0 {name=l181 sig_type=std_logic lab=A26 }
+N 3900.0 930.0 3900.0 910.0 {lab=B26}
+C {devices/lab_pin.sym} 3900.0 930.0 1 0 {name=l182 sig_type=std_logic lab=B26 }
+C {REY_TR_SKY130A/REYTR_CAPX1.sym} 4400 0 0 0 {name=XXO0}
+N 4400.0 -80.0 4400.0 -60.0 {lab=A27}
+C {devices/lab_pin.sym} 4400.0 -80.0 3 0 {name=l183 sig_type=std_logic lab=A27 }
+N 4400.0 30.0 4400.0 10.0 {lab=B27}
+C {devices/lab_pin.sym} 4400.0 30.0 1 0 {name=l184 sig_type=std_logic lab=B27 }

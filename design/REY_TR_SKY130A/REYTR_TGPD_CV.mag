@@ -8,68 +8,70 @@ rect 0 0 1980 640
 rect 720 530 870 590
 rect 870 530 1260 590
 rect 870 530 930 590
-rect 690 210 750 270
-rect 690 370 750 430
-rect 1230 370 1290 430
-rect 1050 50 1260 110
-rect 1050 370 1260 430
-rect 1050 50 1110 430
-rect 630 370 1350 430
-rect 270 290 450 350
-rect 1530 450 1710 510
-rect 270 450 450 510
-rect 270 130 450 190
+rect 720 370 870 430
+rect 870 370 1260 430
+rect 870 370 930 430
+rect 720 50 870 110
+rect 870 50 1260 110
+rect 870 50 930 110
+rect 330 130 390 350
+rect 360 450 510 510
+rect 510 50 720 110
+rect 510 50 570 510
+rect 1620 130 1770 190
+rect 1620 450 1770 510
+rect 1770 130 1830 510
+rect 1260 210 1410 270
+rect 1410 290 1620 350
+rect 1410 210 1470 350
+rect 1530 130 1710 190
+rect 1170 370 1350 430
 rect 630 530 810 590
 << poly >>
-rect 270 304 1710 336
 rect 270 144 1710 176
 << m3 >>
 rect 1170 0 1346 640
 rect 630 0 806 640
 rect 1170 0 1346 640
 rect 630 0 806 640
-use REYTR_NCHDL MN2 
+use REYTR_NCHDL MN0 
 transform 1 0 0 0 1 0
 box 0 0 990 320
-use REYTR_NCHDL MN0 
+use REYTR_NCHDL MN1 
 transform 1 0 0 0 1 160
 box 0 160 990 480
-use REYTR_NCHDL MN1 
+use REYTR_NCHDL MN2 
 transform 1 0 0 0 1 320
 box 0 320 990 640
-use REYTR_PCHDL MP2 
+use REYTR_PCHDL MP0 
 transform 1 0 990 0 1 0
 box 990 0 1980 320
-use REYTR_PCHDL MP0 
+use REYTR_PCHDL MP1_DMY 
 transform 1 0 990 0 1 160
 box 990 160 1980 480
-use REYTR_PCHDL MP1 
+use REYTR_PCHDL MP2 
 transform 1 0 990 0 1 320
 box 990 320 1980 640
 use REYTR_cut_M1M4_2x1 xcut0 
 transform 1 0 1170 0 1 210
 box 1170 210 1346 278
 use REYTR_cut_M1M4_2x1 xcut1 
-transform 1 0 1170 0 1 210
-box 1170 210 1346 278
+transform 1 0 630 0 1 210
+box 630 210 806 278
 use REYTR_cut_M1M4_2x1 xcut2 
-transform 1 0 630 0 1 50
-box 630 50 806 118
+transform 1 0 630 0 1 210
+box 630 210 806 278
 << labels >>
-flabel locali s 270 290 450 350 0 FreeSans 400 0 0 0 A
+flabel locali s 1530 130 1710 190 0 FreeSans 400 0 0 0 C
 port 1 nsew signal bidirectional
-flabel locali s 1530 450 1710 510 0 FreeSans 400 0 0 0 CN
+flabel locali s 1170 370 1350 430 0 FreeSans 400 0 0 0 B
 port 3 nsew signal bidirectional
-flabel locali s 270 450 450 510 0 FreeSans 400 0 0 0 C
+flabel locali s 630 530 810 590 0 FreeSans 400 0 0 0 A
 port 2 nsew signal bidirectional
-flabel locali s 270 130 450 190 0 FreeSans 400 0 0 0 RN
-port 4 nsew signal bidirectional
-flabel locali s 630 530 810 590 0 FreeSans 400 0 0 0 Y
-port 5 nsew signal bidirectional
 flabel m3 s 1170 0 1346 640 0 FreeSans 400 0 0 0 AVDD
-port 6 nsew signal bidirectional
+port 4 nsew signal bidirectional
 flabel m3 s 630 0 806 640 0 FreeSans 400 0 0 0 AVSS
-port 7 nsew signal bidirectional
+port 5 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 1980 640
 << end >>

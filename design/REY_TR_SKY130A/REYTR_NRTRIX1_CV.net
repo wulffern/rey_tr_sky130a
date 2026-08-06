@@ -1,0 +1,46 @@
+ Netlist File
+ REYTR_NRTRIX1_CV
+ N1
+MN2/D
+MN0/S
+MN1/D
+
+ B
+MN2/G
+MP2/G
+
+ AVSS
+MN2/S
+MN2/B
+MN0/D
+MN0/B
+MN1/B
+
+ A
+MN0/G
+MP0/G
+
+ C
+MN1/G
+
+ Y
+MN1/S
+MP1/S
+
+ N3
+MP2/D
+MP0/S
+
+ N2
+MP2/S
+MP1/D
+
+ AVDD
+MP2/B
+MP0/D
+MP0/B
+MP1/B
+
+ CN
+MP1/G
+
