@@ -1,0 +1,50 @@
+ Netlist File
+ REYTR_LSX1_CV
+ Y
+xb1_0/D
+xb1_1/D
+xc1b/D
+xc2a/G
+xc2b/G
+
+ AN
+xb1_0/G
+xb1_1/G
+
+ AVSS
+xb1_0/S
+xb1_0/B
+xb1_1/S
+xb1_1/B
+xb2_0/S
+xb2_0/B
+xb2_1/S
+xb2_1/B
+
+ YN
+xb2_0/D
+xb2_1/D
+xc1a/G
+xc1b/G
+xc2b/D
+
+ A
+xb2_0/G
+xb2_1/G
+
+ net2
+xc1a/D
+xc1b/S
+
+ AVDD
+xc1a/S
+xc1a/B
+xc1b/B
+xc2a/S
+xc2a/B
+xc2b/B
+
+ net1
+xc2a/D
+xc2b/S
+

@@ -1,0 +1,38 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1785967200
+<< checkpaint >>
+rect 480 0 4512 2640
+<< m3 >>
+rect 1328 0 1408 1660
+rect 3584 0 3664 1660
+rect 2256 0 2736 100
+rect 2736 0 4512 100
+rect 480 0 2256 100
+<< m4 >>
+rect 1328 0 1408 1660
+rect 3584 0 3664 1660
+rect 2256 0 2736 100
+rect 2736 0 4512 100
+rect 480 0 2256 100
+use REYTR_CAPX1 XA1 
+transform 1 0 480 0 1 0
+box 480 0 2256 1080
+use REYTR_CAPX1 XA2 
+transform 1 0 480 0 1 1560
+box 480 1560 2256 2640
+use REYTR_CAPX1 XB1 
+transform 1 0 2736 0 1 0
+box 2736 0 4512 1080
+use REYTR_CAPX1 XB2 
+transform 1 0 2736 0 1 1560
+box 2736 1560 4512 2640
+<< labels >>
+flabel m3 s 480 0 2256 100 0 FreeSans 400 0 0 0 A
+port 1 nsew signal bidirectional
+flabel m4 s 480 0 2256 100 0 FreeSans 400 0 0 0 B
+port 2 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 480 0 4512 2640
+<< end >>

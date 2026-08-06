@@ -1,0 +1,42 @@
+ Netlist File
+ REYTR_DFTSPCX1_CV
+ N1
+MN0/D
+MN1/G
+MP0/D
+MP2/G
+
+ D
+MN0/G
+MP1/G
+
+ AVSS
+MN0/S
+MN0/B
+MN2/B
+MN1/D
+MN1/B
+
+ N2
+MN2/D
+MN1/S
+
+ CK
+MN2/G
+MP0/G
+
+ Q
+MN2/S
+MP2/D
+
+ N3
+MP1/D
+MP0/S
+
+ AVDD
+MP1/S
+MP1/B
+MP0/B
+MP2/S
+MP2/B
+

@@ -1,0 +1,510 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1785967200
+<< checkpaint >>
+rect -1200 -1200 43908 7600
+<< locali >>
+rect 43132 -600 43308 7000
+rect -600 -600 43308 -424
+rect -600 6824 43308 7000
+rect -600 -600 -424 7000
+rect 43132 -600 43308 7000
+rect 12136 -600 13472 128
+rect 13360 -600 15128 128
+rect 15016 -600 17648 128
+rect 17536 -600 21896 128
+rect 43732 -1200 43908 7600
+rect -1200 -1200 43908 -1024
+rect -1200 7424 43908 7600
+rect -1200 -1200 -1024 7600
+rect 43732 -1200 43908 7600
+<< m3 >>
+rect 630 -600 806 320
+rect 630 -600 806 640
+rect 630 -600 806 960
+rect 3154 -600 3330 320
+rect 3154 -600 3330 640
+rect 3154 -600 3330 1120
+rect 3154 -600 3330 1920
+rect 3154 -600 3330 3360
+rect 4590 -600 4766 320
+rect 4590 -600 4766 800
+rect 7114 -600 7290 320
+rect 7114 -600 7290 800
+rect 7114 -600 7290 1280
+rect 7114 -600 7290 2080
+rect 7114 -600 7290 2880
+rect 8550 -600 8726 320
+rect 8550 -600 8726 1920
+rect 11074 -600 11250 320
+rect 11074 -600 11250 1280
+rect 23142 -600 23318 320
+rect 23142 -600 23318 6400
+rect 25666 -600 25842 320
+rect 25666 -600 25842 4960
+rect 25666 -600 25842 5920
+rect 27102 -600 27278 320
+rect 27102 -600 27278 4160
+rect 29626 -600 29802 320
+rect 29626 -600 29802 1280
+rect 29626 -600 29802 2560
+rect 29626 -600 29802 4480
+rect 31062 -600 31238 320
+rect 31062 -600 31238 1280
+rect 31062 -600 31238 2560
+rect 31062 -600 31238 4480
+rect 33586 -600 33762 320
+rect 33586 -600 33762 1120
+rect 35022 -600 35198 320
+rect 35022 -600 35198 3840
+rect 37546 -600 37722 320
+rect 37546 -600 37722 2240
+rect 38982 -600 39158 320
+rect 38982 -600 39158 1600
+rect 1170 -1200 1346 320
+rect 1170 -1200 1346 640
+rect 1170 -1200 1346 960
+rect 2614 -1200 2790 320
+rect 2614 -1200 2790 640
+rect 2614 -1200 2790 1120
+rect 2614 -1200 2790 1920
+rect 2614 -1200 2790 3360
+rect 5130 -1200 5306 320
+rect 5130 -1200 5306 800
+rect 6574 -1200 6750 320
+rect 6574 -1200 6750 800
+rect 6574 -1200 6750 1280
+rect 6574 -1200 6750 2080
+rect 6574 -1200 6750 2880
+rect 9090 -1200 9266 320
+rect 9090 -1200 9266 1920
+rect 10534 -1200 10710 320
+rect 10534 -1200 10710 1280
+rect 23682 -1200 23858 320
+rect 23682 -1200 23858 6400
+rect 25126 -1200 25302 320
+rect 25126 -1200 25302 4960
+rect 25126 -1200 25302 5920
+rect 27642 -1200 27818 320
+rect 27642 -1200 27818 4160
+rect 29086 -1200 29262 320
+rect 29086 -1200 29262 1280
+rect 29086 -1200 29262 2560
+rect 29086 -1200 29262 4480
+rect 31602 -1200 31778 320
+rect 31602 -1200 31778 1280
+rect 31602 -1200 31778 2560
+rect 31602 -1200 31778 4480
+rect 33046 -1200 33222 320
+rect 33046 -1200 33222 1120
+rect 35562 -1200 35738 320
+rect 35562 -1200 35738 3840
+rect 37006 -1200 37182 320
+rect 37006 -1200 37182 2240
+rect 39522 -1200 39698 320
+rect 39522 -1200 39698 1600
+use REYTR_TAPCELLB_CV XA0 
+transform 1 0 0 0 1 0
+box 0 0 1980 320
+use REYTR_TIEH_CV XA1 
+transform 1 0 0 0 1 320
+box 0 320 1980 640
+use REYTR_TIEL_CV XA2 
+transform 1 0 0 0 1 640
+box 0 640 1980 960
+use REYTR_TAPCELLB_CV XB0 
+transform -1 0 3960 0 1 0
+box 3960 0 5940 320
+use REYTR_IVX1_CV XB3 
+transform -1 0 3960 0 1 320
+box 3960 320 5940 640
+use REYTR_IVX2_CV XB4 
+transform -1 0 3960 0 1 640
+box 3960 640 5940 1120
+use REYTR_IVX4_CV XB5 
+transform -1 0 3960 0 1 1120
+box 3960 1120 5940 1920
+use REYTR_IVX8_CV XB6 
+transform -1 0 3960 0 1 1920
+box 3960 1920 5940 3360
+use REYTR_TAPCELLB_CV XC0 
+transform 1 0 3960 0 1 0
+box 3960 0 5940 320
+use REYTR_BFX1_CV XC7 
+transform 1 0 3960 0 1 320
+box 3960 320 5940 800
+use REYTR_TAPCELLB_CV XD0 
+transform -1 0 7920 0 1 0
+box 7920 0 9900 320
+use REYTR_NRX1_CV XD8 
+transform -1 0 7920 0 1 320
+box 7920 320 9900 800
+use REYTR_NDX1_CV XD9 
+transform -1 0 7920 0 1 800
+box 7920 800 9900 1280
+use REYTR_ORX1_CV XD10 
+transform -1 0 7920 0 1 1280
+box 7920 1280 9900 2080
+use REYTR_ANX1_CV XD11 
+transform -1 0 7920 0 1 2080
+box 7920 2080 9900 2880
+use REYTR_TAPCELLB_CV XE0 
+transform 1 0 7920 0 1 0
+box 7920 0 9900 320
+use REYTR_SCX1_CV XE12 
+transform 1 0 7920 0 1 320
+box 7920 320 9900 1920
+use REYTR_TAPCELLB_CV XG0 
+transform -1 0 11880 0 1 0
+box 11880 0 13860 320
+use REYTR_TGX2_CV XG1 
+transform -1 0 11880 0 1 320
+box 11880 320 13860 1280
+use REYTR_RPPO2 XH1 
+transform 1 0 12120 0 1 0
+box 12120 0 13488 3360
+use REYTR_RPPO4 XI1 
+transform -1 0 15144 0 1 0
+box 15144 0 16944 3360
+use REYTR_RPPO8 XJ1 
+transform 1 0 15000 0 1 0
+box 15000 0 17664 3360
+use REYTR_RPPO16 XK1 
+transform -1 0 21912 0 1 0
+box 21912 0 26304 3360
+use REYTR_TAPCELLB_CV XL0 
+transform 1 0 22512 0 1 0
+box 22512 0 24492 320
+use REYTR_CKDIV2_CV XL1 
+transform 1 0 22512 0 1 320
+box 22512 320 24492 6400
+use REYTR_TAPCELLB_CV XM0 
+transform -1 0 26472 0 1 0
+box 26472 0 28452 320
+use REYTR_DFTRIX1_CV XM1 
+transform -1 0 26472 0 1 320
+box 26472 320 28452 4960
+use REYTR_DFTSPCX1_CV XM2 
+transform -1 0 26472 0 1 4960
+box 26472 4960 28452 5920
+use REYTR_TAPCELLB_CV XN0 
+transform 1 0 26472 0 1 0
+box 26472 0 28452 320
+use REYTR_DFRNQNX1_CV XN2 
+transform 1 0 26472 0 1 320
+box 26472 320 28452 4160
+use REYTR_TAPCELLB_CV XQ0 
+transform -1 0 30432 0 1 0
+box 30432 0 32412 320
+use REYTR_ANX2_CV XQ1 
+transform -1 0 30432 0 1 320
+box 30432 320 32412 1280
+use REYTR_ANX4_CV XQ2 
+transform -1 0 30432 0 1 1280
+box 30432 1280 32412 2560
+use REYTR_ANX8_CV XQ3 
+transform -1 0 30432 0 1 2560
+box 30432 2560 32412 4480
+use REYTR_TAPCELLB_CV XR0 
+transform 1 0 30432 0 1 0
+box 30432 0 32412 320
+use REYTR_ORX2_CV XR1 
+transform 1 0 30432 0 1 320
+box 30432 320 32412 1280
+use REYTR_ORX4_CV XR2 
+transform 1 0 30432 0 1 1280
+box 30432 1280 32412 2560
+use REYTR_ORX8_CV XR3 
+transform 1 0 30432 0 1 2560
+box 30432 2560 32412 4480
+use REYTR_TAPCELLB_CV XS0 
+transform -1 0 34392 0 1 0
+box 34392 0 36372 320
+use REYTR_IVTRICX1_CV XS1 
+transform -1 0 34392 0 1 320
+box 34392 320 36372 1120
+use REYTR_TAPCELLB_CV XT0 
+transform 1 0 34392 0 1 0
+box 34392 0 36372 320
+use REYTR_DFQNX1_CV XT1 
+transform 1 0 34392 0 1 320
+box 34392 320 36372 3840
+use REYTR_TAPCELLB_CV XU0 
+transform -1 0 38352 0 1 0
+box 38352 0 40332 320
+use REYTR_EOX1_CV XU1 
+transform -1 0 38352 0 1 320
+box 38352 320 40332 2240
+use REYTR_TAPCELLB_CV XV0 
+transform 1 0 38352 0 1 0
+box 38352 0 40332 320
+use REYTR_LSX1_CV XV1 
+transform 1 0 38352 0 1 320
+box 38352 320 40332 1600
+use REYTR_CAPX1 XO1 
+transform -1 0 42708 0 1 0
+box 42708 0 44484 1080
+use REYTR_CAPX1 XO0 
+transform -1 0 42708 0 1 1560
+box 42708 1560 44484 2640
+use REYTR_cut_M1M4_2x2 xcut0 
+transform 1 0 630 0 1 -600
+box 630 -600 806 -424
+use REYTR_cut_M1M4_2x2 xcut1 
+transform 1 0 630 0 1 -600
+box 630 -600 806 -424
+use REYTR_cut_M1M4_2x2 xcut2 
+transform 1 0 630 0 1 -600
+box 630 -600 806 -424
+use REYTR_cut_M1M4_2x2 xcut3 
+transform 1 0 3154 0 1 -600
+box 3154 -600 3330 -424
+use REYTR_cut_M1M4_2x2 xcut4 
+transform 1 0 3154 0 1 -600
+box 3154 -600 3330 -424
+use REYTR_cut_M1M4_2x2 xcut5 
+transform 1 0 3154 0 1 -600
+box 3154 -600 3330 -424
+use REYTR_cut_M1M4_2x2 xcut6 
+transform 1 0 3154 0 1 -600
+box 3154 -600 3330 -424
+use REYTR_cut_M1M4_2x2 xcut7 
+transform 1 0 3154 0 1 -600
+box 3154 -600 3330 -424
+use REYTR_cut_M1M4_2x2 xcut8 
+transform 1 0 4590 0 1 -600
+box 4590 -600 4766 -424
+use REYTR_cut_M1M4_2x2 xcut9 
+transform 1 0 4590 0 1 -600
+box 4590 -600 4766 -424
+use REYTR_cut_M1M4_2x2 xcut10 
+transform 1 0 7114 0 1 -600
+box 7114 -600 7290 -424
+use REYTR_cut_M1M4_2x2 xcut11 
+transform 1 0 7114 0 1 -600
+box 7114 -600 7290 -424
+use REYTR_cut_M1M4_2x2 xcut12 
+transform 1 0 7114 0 1 -600
+box 7114 -600 7290 -424
+use REYTR_cut_M1M4_2x2 xcut13 
+transform 1 0 7114 0 1 -600
+box 7114 -600 7290 -424
+use REYTR_cut_M1M4_2x2 xcut14 
+transform 1 0 7114 0 1 -600
+box 7114 -600 7290 -424
+use REYTR_cut_M1M4_2x2 xcut15 
+transform 1 0 8550 0 1 -600
+box 8550 -600 8726 -424
+use REYTR_cut_M1M4_2x2 xcut16 
+transform 1 0 8550 0 1 -600
+box 8550 -600 8726 -424
+use REYTR_cut_M1M4_2x2 xcut17 
+transform 1 0 11074 0 1 -600
+box 11074 -600 11250 -424
+use REYTR_cut_M1M4_2x2 xcut18 
+transform 1 0 11074 0 1 -600
+box 11074 -600 11250 -424
+use REYTR_cut_M1M4_2x2 xcut19 
+transform 1 0 23142 0 1 -600
+box 23142 -600 23318 -424
+use REYTR_cut_M1M4_2x2 xcut20 
+transform 1 0 23142 0 1 -600
+box 23142 -600 23318 -424
+use REYTR_cut_M1M4_2x2 xcut21 
+transform 1 0 25666 0 1 -600
+box 25666 -600 25842 -424
+use REYTR_cut_M1M4_2x2 xcut22 
+transform 1 0 25666 0 1 -600
+box 25666 -600 25842 -424
+use REYTR_cut_M1M4_2x2 xcut23 
+transform 1 0 25666 0 1 -600
+box 25666 -600 25842 -424
+use REYTR_cut_M1M4_2x2 xcut24 
+transform 1 0 27102 0 1 -600
+box 27102 -600 27278 -424
+use REYTR_cut_M1M4_2x2 xcut25 
+transform 1 0 27102 0 1 -600
+box 27102 -600 27278 -424
+use REYTR_cut_M1M4_2x2 xcut26 
+transform 1 0 29626 0 1 -600
+box 29626 -600 29802 -424
+use REYTR_cut_M1M4_2x2 xcut27 
+transform 1 0 29626 0 1 -600
+box 29626 -600 29802 -424
+use REYTR_cut_M1M4_2x2 xcut28 
+transform 1 0 29626 0 1 -600
+box 29626 -600 29802 -424
+use REYTR_cut_M1M4_2x2 xcut29 
+transform 1 0 29626 0 1 -600
+box 29626 -600 29802 -424
+use REYTR_cut_M1M4_2x2 xcut30 
+transform 1 0 31062 0 1 -600
+box 31062 -600 31238 -424
+use REYTR_cut_M1M4_2x2 xcut31 
+transform 1 0 31062 0 1 -600
+box 31062 -600 31238 -424
+use REYTR_cut_M1M4_2x2 xcut32 
+transform 1 0 31062 0 1 -600
+box 31062 -600 31238 -424
+use REYTR_cut_M1M4_2x2 xcut33 
+transform 1 0 31062 0 1 -600
+box 31062 -600 31238 -424
+use REYTR_cut_M1M4_2x2 xcut34 
+transform 1 0 33586 0 1 -600
+box 33586 -600 33762 -424
+use REYTR_cut_M1M4_2x2 xcut35 
+transform 1 0 33586 0 1 -600
+box 33586 -600 33762 -424
+use REYTR_cut_M1M4_2x2 xcut36 
+transform 1 0 35022 0 1 -600
+box 35022 -600 35198 -424
+use REYTR_cut_M1M4_2x2 xcut37 
+transform 1 0 35022 0 1 -600
+box 35022 -600 35198 -424
+use REYTR_cut_M1M4_2x2 xcut38 
+transform 1 0 37546 0 1 -600
+box 37546 -600 37722 -424
+use REYTR_cut_M1M4_2x2 xcut39 
+transform 1 0 37546 0 1 -600
+box 37546 -600 37722 -424
+use REYTR_cut_M1M4_2x2 xcut40 
+transform 1 0 38982 0 1 -600
+box 38982 -600 39158 -424
+use REYTR_cut_M1M4_2x2 xcut41 
+transform 1 0 38982 0 1 -600
+box 38982 -600 39158 -424
+use REYTR_cut_M1M4_2x2 xcut42 
+transform 1 0 1170 0 1 -1200
+box 1170 -1200 1346 -1024
+use REYTR_cut_M1M4_2x2 xcut43 
+transform 1 0 1170 0 1 -1200
+box 1170 -1200 1346 -1024
+use REYTR_cut_M1M4_2x2 xcut44 
+transform 1 0 1170 0 1 -1200
+box 1170 -1200 1346 -1024
+use REYTR_cut_M1M4_2x2 xcut45 
+transform 1 0 2614 0 1 -1200
+box 2614 -1200 2790 -1024
+use REYTR_cut_M1M4_2x2 xcut46 
+transform 1 0 2614 0 1 -1200
+box 2614 -1200 2790 -1024
+use REYTR_cut_M1M4_2x2 xcut47 
+transform 1 0 2614 0 1 -1200
+box 2614 -1200 2790 -1024
+use REYTR_cut_M1M4_2x2 xcut48 
+transform 1 0 2614 0 1 -1200
+box 2614 -1200 2790 -1024
+use REYTR_cut_M1M4_2x2 xcut49 
+transform 1 0 2614 0 1 -1200
+box 2614 -1200 2790 -1024
+use REYTR_cut_M1M4_2x2 xcut50 
+transform 1 0 5130 0 1 -1200
+box 5130 -1200 5306 -1024
+use REYTR_cut_M1M4_2x2 xcut51 
+transform 1 0 5130 0 1 -1200
+box 5130 -1200 5306 -1024
+use REYTR_cut_M1M4_2x2 xcut52 
+transform 1 0 6574 0 1 -1200
+box 6574 -1200 6750 -1024
+use REYTR_cut_M1M4_2x2 xcut53 
+transform 1 0 6574 0 1 -1200
+box 6574 -1200 6750 -1024
+use REYTR_cut_M1M4_2x2 xcut54 
+transform 1 0 6574 0 1 -1200
+box 6574 -1200 6750 -1024
+use REYTR_cut_M1M4_2x2 xcut55 
+transform 1 0 6574 0 1 -1200
+box 6574 -1200 6750 -1024
+use REYTR_cut_M1M4_2x2 xcut56 
+transform 1 0 6574 0 1 -1200
+box 6574 -1200 6750 -1024
+use REYTR_cut_M1M4_2x2 xcut57 
+transform 1 0 9090 0 1 -1200
+box 9090 -1200 9266 -1024
+use REYTR_cut_M1M4_2x2 xcut58 
+transform 1 0 9090 0 1 -1200
+box 9090 -1200 9266 -1024
+use REYTR_cut_M1M4_2x2 xcut59 
+transform 1 0 10534 0 1 -1200
+box 10534 -1200 10710 -1024
+use REYTR_cut_M1M4_2x2 xcut60 
+transform 1 0 10534 0 1 -1200
+box 10534 -1200 10710 -1024
+use REYTR_cut_M1M4_2x2 xcut61 
+transform 1 0 23682 0 1 -1200
+box 23682 -1200 23858 -1024
+use REYTR_cut_M1M4_2x2 xcut62 
+transform 1 0 23682 0 1 -1200
+box 23682 -1200 23858 -1024
+use REYTR_cut_M1M4_2x2 xcut63 
+transform 1 0 25126 0 1 -1200
+box 25126 -1200 25302 -1024
+use REYTR_cut_M1M4_2x2 xcut64 
+transform 1 0 25126 0 1 -1200
+box 25126 -1200 25302 -1024
+use REYTR_cut_M1M4_2x2 xcut65 
+transform 1 0 25126 0 1 -1200
+box 25126 -1200 25302 -1024
+use REYTR_cut_M1M4_2x2 xcut66 
+transform 1 0 27642 0 1 -1200
+box 27642 -1200 27818 -1024
+use REYTR_cut_M1M4_2x2 xcut67 
+transform 1 0 27642 0 1 -1200
+box 27642 -1200 27818 -1024
+use REYTR_cut_M1M4_2x2 xcut68 
+transform 1 0 29086 0 1 -1200
+box 29086 -1200 29262 -1024
+use REYTR_cut_M1M4_2x2 xcut69 
+transform 1 0 29086 0 1 -1200
+box 29086 -1200 29262 -1024
+use REYTR_cut_M1M4_2x2 xcut70 
+transform 1 0 29086 0 1 -1200
+box 29086 -1200 29262 -1024
+use REYTR_cut_M1M4_2x2 xcut71 
+transform 1 0 29086 0 1 -1200
+box 29086 -1200 29262 -1024
+use REYTR_cut_M1M4_2x2 xcut72 
+transform 1 0 31602 0 1 -1200
+box 31602 -1200 31778 -1024
+use REYTR_cut_M1M4_2x2 xcut73 
+transform 1 0 31602 0 1 -1200
+box 31602 -1200 31778 -1024
+use REYTR_cut_M1M4_2x2 xcut74 
+transform 1 0 31602 0 1 -1200
+box 31602 -1200 31778 -1024
+use REYTR_cut_M1M4_2x2 xcut75 
+transform 1 0 31602 0 1 -1200
+box 31602 -1200 31778 -1024
+use REYTR_cut_M1M4_2x2 xcut76 
+transform 1 0 33046 0 1 -1200
+box 33046 -1200 33222 -1024
+use REYTR_cut_M1M4_2x2 xcut77 
+transform 1 0 33046 0 1 -1200
+box 33046 -1200 33222 -1024
+use REYTR_cut_M1M4_2x2 xcut78 
+transform 1 0 35562 0 1 -1200
+box 35562 -1200 35738 -1024
+use REYTR_cut_M1M4_2x2 xcut79 
+transform 1 0 35562 0 1 -1200
+box 35562 -1200 35738 -1024
+use REYTR_cut_M1M4_2x2 xcut80 
+transform 1 0 37006 0 1 -1200
+box 37006 -1200 37182 -1024
+use REYTR_cut_M1M4_2x2 xcut81 
+transform 1 0 37006 0 1 -1200
+box 37006 -1200 37182 -1024
+use REYTR_cut_M1M4_2x2 xcut82 
+transform 1 0 39522 0 1 -1200
+box 39522 -1200 39698 -1024
+use REYTR_cut_M1M4_2x2 xcut83 
+transform 1 0 39522 0 1 -1200
+box 39522 -1200 39698 -1024
+<< labels >>
+flabel locali s 43132 -600 43308 7000 0 FreeSans 400 0 0 0 AVSS
+port 2 nsew signal bidirectional
+flabel locali s 43732 -1200 43908 7600 0 FreeSans 400 0 0 0 AVDD
+port 1 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX -1200 -1200 43908 7600
+<< end >>

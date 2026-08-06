@@ -1,0 +1,56 @@
+ Netlist File
+ REYTR_EONX1_CV
+ N1
+MN1/D
+MN2/S
+
+ A
+MN1/G
+MP1/G
+
+ AVSS
+MN1/S
+MN1/B
+MN2/B
+MN3/B
+MN4/D
+MN4/B
+
+ Y
+MN2/D
+MN3/S
+MP1/S
+MP4/D
+
+ B
+MN2/G
+MP3/G
+
+ N3
+MN3/D
+MN4/S
+
+ BN
+MN3/G
+MP2/G
+
+ AN
+MN4/G
+MP4/G
+
+ NP1
+MP1/D
+MP2/S
+
+ AVDD
+MP1/B
+MP2/D
+MP2/B
+MP3/S
+MP3/B
+MP4/B
+
+ NP2
+MP3/D
+MP4/S
+

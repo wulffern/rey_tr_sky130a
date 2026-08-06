@@ -1,0 +1,31 @@
+ Netlist File
+ REYTR_EOX1_CV
+ A
+X1/A
+X3/A
+
+ AN
+X1/Y
+X3/AN
+
+ AVDD
+X1/AVDD
+X2/AVDD
+X3/AVDD
+
+ AVSS
+X1/AVSS
+X2/AVSS
+X3/AVSS
+
+ B
+X2/A
+X3/B
+
+ BN
+X2/Y
+X3/BN
+
+ Y
+X3/Y
+

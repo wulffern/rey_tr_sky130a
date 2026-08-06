@@ -1,0 +1,29 @@
+{"name": "REYTR_LSX1_CV",
+ "instances": [
+   {"name": "MN1", "symbol": "lvnmos",  "pos": [0, 0],   "args": ["MN1", "$AN$"],
+    "conns": {"drain": "Y", "source": "AVSS", "gate": "AN"}},
+   {"name": "MN2", "symbol": "lvmnmos", "pos": [4.8, 0], "args": ["MN2", "$A$"],
+    "conns": {"drain": "YN", "source": "AVSS", "gate": "A"}},
+   {"name": "MP1", "symbol": "lvmpmos", "pos": [0, 3.2], "args": ["MP1", ""],
+    "conns": {"drain": "Y", "source": "AVDD", "gate": "YN"}},
+   {"name": "MP2", "symbol": "lvpmos",  "pos": [4.8, 3.2], "args": ["MP2", ""],
+    "conns": {"drain": "YN", "source": "AVDD", "gate": "Y"}}
+ ],
+ "wires": [
+   {"points": [[0, 1.6], [0, 3.2]], "net": "Y"},
+   {"points": [[4.8, 1.6], [4.8, 3.2]], "net": "YN"},
+   {"points": [[0.98, 4.0], [0.98, 2.2], [4.8, 2.2]], "net": "YN"},
+   {"points": [[3.82, 4.0], [3.82, 2.6], [0, 2.6]], "net": "Y"},
+   {"points": [[0, 4.8], [4.8, 4.8]], "net": "AVDD"},
+   {"points": [[0, 0], [4.8, 0]], "net": "AVSS"},
+   {"points": [[0, 1.6], [-1.0, 1.6]], "net": "Y"},
+   {"points": [[4.8, 1.6], [5.8, 1.6]], "net": "YN"}
+ ],
+ "ports": [
+   {"net": "Y",  "pos": [-1.0, 1.6],  "direction": "out"},
+   {"net": "YN", "pos": [5.8, 1.6], "direction": "out"}
+ ],
+ "labels": [
+   {"text": "AVDD", "pos": [2.4, 4.95], "anchor": "south"},
+   {"text": "AVSS", "pos": [2.4, -0.2], "anchor": "north"}
+ ]}

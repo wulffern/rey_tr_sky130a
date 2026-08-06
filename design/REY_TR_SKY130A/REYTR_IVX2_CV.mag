@@ -1,0 +1,58 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1785967200
+<< checkpaint >>
+rect 0 0 1980 480
+<< locali >>
+rect 720 210 870 270
+rect 870 210 1260 270
+rect 870 210 930 270
+rect 330 130 390 350
+rect 1590 130 1650 350
+rect 270 130 450 190
+rect 630 210 810 270
+<< poly >>
+rect 270 144 1710 176
+rect 270 304 1710 336
+<< m3 >>
+rect 1170 0 1346 480
+rect 630 0 806 480
+rect 1170 0 1346 480
+rect 630 0 806 480
+use REYTR_NCHDL MN0 
+transform 1 0 0 0 1 0
+box 0 0 990 320
+use REYTR_NCHDL MN1 
+transform 1 0 0 0 1 160
+box 0 160 990 480
+use REYTR_PCHDL MP0 
+transform 1 0 990 0 1 0
+box 990 0 1980 320
+use REYTR_PCHDL MP1 
+transform 1 0 990 0 1 160
+box 990 160 1980 480
+use REYTR_cut_M1M4_2x1 xcut0 
+transform 1 0 1170 0 1 50
+box 1170 50 1346 118
+use REYTR_cut_M1M4_2x1 xcut1 
+transform 1 0 1170 0 1 370
+box 1170 370 1346 438
+use REYTR_cut_M1M4_2x1 xcut2 
+transform 1 0 630 0 1 50
+box 630 50 806 118
+use REYTR_cut_M1M4_2x1 xcut3 
+transform 1 0 630 0 1 370
+box 630 370 806 438
+<< labels >>
+flabel locali s 270 130 450 190 0 FreeSans 400 0 0 0 A
+port 1 nsew signal bidirectional
+flabel locali s 630 210 810 270 0 FreeSans 400 0 0 0 Y
+port 2 nsew signal bidirectional
+flabel m3 s 1170 0 1346 480 0 FreeSans 400 0 0 0 AVDD
+port 3 nsew signal bidirectional
+flabel m3 s 630 0 806 480 0 FreeSans 400 0 0 0 AVSS
+port 4 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 1980 480
+<< end >>

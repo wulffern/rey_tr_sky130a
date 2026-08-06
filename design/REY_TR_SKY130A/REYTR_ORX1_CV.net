@@ -1,0 +1,23 @@
+ Netlist File
+ REYTR_ORX1_CV
+ A
+XA1/A
+
+ B
+XA1/B
+
+ YN
+XA1/Y
+XA2/A
+
+ AVDD
+XA1/AVDD
+XA2/AVDD
+
+ AVSS
+XA1/AVSS
+XA2/AVSS
+
+ Y
+XA2/Y
+

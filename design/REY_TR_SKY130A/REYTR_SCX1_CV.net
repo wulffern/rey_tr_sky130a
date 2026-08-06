@@ -1,0 +1,56 @@
+ Netlist File
+ REYTR_SCX1_CV
+ N1
+XA2/D
+XA3/S
+XA4a/S
+XA4b/S
+
+ A
+XA2/G
+XA3/G
+XB0/G
+XB1/G
+
+ AVSS
+XA2/S
+XA2/B
+XA3/B
+XA4a/B
+XA4b/B
+XA5/S
+XA5/B
+XB3a/S
+XB3b/S
+
+ SCO
+XA3/D
+XA4a/G
+XA4b/G
+XA5/G
+XB1/D
+XB3a/G
+XB3b/G
+XB4/G
+
+ AVDD
+XA4a/D
+XA4b/D
+XB0/S
+XB0/B
+XB1/B
+XB3a/B
+XB3b/B
+XB4/S
+XB4/B
+
+ Y
+XA5/D
+XB4/D
+
+ N2
+XB0/D
+XB1/S
+XB3a/D
+XB3b/D
+

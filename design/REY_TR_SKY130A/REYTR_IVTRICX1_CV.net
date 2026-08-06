@@ -1,0 +1,24 @@
+ Netlist File
+ REYTR_IVTRICX1_CV
+ C
+XA1/A
+XA2/C
+
+ CN
+XA1/Y
+XA2/CN
+
+ AVDD
+XA1/AVDD
+XA2/AVDD
+
+ AVSS
+XA1/AVSS
+XA2/AVSS
+
+ A
+XA2/A
+
+ Y
+XA2/Y
+

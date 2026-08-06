@@ -1,18 +1,18 @@
 library: REY_TR_SKY130A
-cell: REY_TR
-# Your name
-author: Anonymous
-# Your github username
+cell: REYTR_TOP
 github: analogicus
-# Something funny and descriptive
-tagline: The answer is 42
-# Your email, if you so wish
-email: anon@anon.com
-# Your github site, usually <github username>.github.io
+author: Carsten Wulff
+tagline: Standard cell library for analog design, second generation
+email: carsten@wulff.no
+baseurl: "/rey_tr_sky130a"
 url: analogicus.github.io
 doc:
-  # Make docs
-  #libraries:
-  #   <library>:
-  #       - <cell>
-  #       - <cell>
+  libraries:
+    REY_TR_SKY130A:
+      - REYTR_TOP
+      - REYTR_DFQNX1_CV
+      - REYTR_EOX1_CV
+      - REYTR_LSX1_CV
+      - REYTR_SCX1_CV
+sim:
+  IVX1_CV: make typical

@@ -1,0 +1,25 @@
+author:
+  email: carsten@wulff.no
+  name: Carsten Wulff
+baseurl: /rey_tr_sky130a
+description: Standard cell library for analog design
+domain: analogicus.github.io
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+kramdown:
+  mathjax: true
+markdown: kramdown
+minima:
+  skin: classic
+plugins:
+- jekyll-feed
+- jemoji
+- jekyll-seo-tag
+- jekyll-remote-theme
+- jekyll-paginate
+remote_theme: wulffern/minima
+show_excerpts: false
+title: REY_TR_SKY130A
+url: https://analogicus.github.io
