@@ -56546,6 +56546,6 @@
         "library": "REY_TR_SKY130A",
         "prefix": "",
         "rules": "../cic/sky130.tech",
-        "version": "0.1.5+ built on Thu Aug 6 16:43:00 CEST 2026"
+        "version": "0.1.5+ built on Thu Aug 6 16:59:22 CEST 2026"
     }
 }

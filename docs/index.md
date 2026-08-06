@@ -49,6 +49,27 @@ The schematic above is drawn with
 
 ## Resistors
 
+**The 0.16 um.** A poly resistor's drawn body is the span between its
+contacts: 7.2 um for RES2. The sky130 model measures to the middle of
+the contact interface instead, 0.08 um further at each end, and magic
+applies that during extraction — `sky130A.tech` line 6031 reads
+`l=l+0.16`. So a 7.2 um drawn resistor is a 7.36 um model resistor, and
+the schematic has to say 7.36 or LVS reports a property error.
+
+jnw_tr patched the generated `.sch` files after the fact with a
+`post.py` that added 0.16 and a comment saying "for some reason ... I
+can't figure out why". Here the offset is declared where it belongs, on
+the device in the tech file:
+
+```json
+"rppo" : { "propertymap" : { "l" : {"name":"length","offset":0.16} } }
+```
+
+cicpy applies it when it prints, so schematic and netlist agree, and
+`make ip` is idempotent — the old hack drifted the length by another
+0.16 on every regeneration.
+
+
 The poly resistors carry their own guard ring tied to `B`. The guard
 standoff is 2.5 route grids — sky130 `poly.9` fails at 2, so this is
 minimum. Adjacent resistors can share a guard wall by placing them
