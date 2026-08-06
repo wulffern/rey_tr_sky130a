@@ -41607,7 +41607,7 @@
                         {
                             "class": "Text",
                             "layer": "TXT",
-                            "name": "X1",
+                            "name": "XA1",
                             "net": "",
                             "x1": 49500,
                             "x2": 49500,
@@ -41616,7 +41616,7 @@
                         }
                     ],
                     "class": "Instance",
-                    "instanceName": "X1",
+                    "instanceName": "XA1",
                     "layer": "PR",
                     "libpath": "",
                     "name": "REYTR_IVX1_CV",
@@ -41624,8 +41624,8 @@
                     "subcktInstance": {
                         "class": "cIcSpice::SubcktInstance",
                         "deviceName": "subckt",
-                        "groupName": "X",
-                        "name": "X1",
+                        "groupName": "XA",
+                        "name": "XA1",
                         "nodes": [
                             "A",
                             "AN",
@@ -41698,7 +41698,7 @@
                         {
                             "class": "Text",
                             "layer": "TXT",
-                            "name": "X2",
+                            "name": "XA2",
                             "net": "",
                             "x1": 49500,
                             "x2": 49500,
@@ -41707,7 +41707,7 @@
                         }
                     ],
                     "class": "Instance",
-                    "instanceName": "X2",
+                    "instanceName": "XA2",
                     "layer": "PR",
                     "libpath": "",
                     "name": "REYTR_IVX1_CV",
@@ -41715,8 +41715,8 @@
                     "subcktInstance": {
                         "class": "cIcSpice::SubcktInstance",
                         "deviceName": "subckt",
-                        "groupName": "X",
-                        "name": "X2",
+                        "groupName": "XA",
+                        "name": "XA2",
                         "nodes": [
                             "B",
                             "BN",
@@ -41825,7 +41825,7 @@
                         {
                             "class": "Text",
                             "layer": "TXT",
-                            "name": "X3",
+                            "name": "XA3",
                             "net": "",
                             "x1": 49500,
                             "x2": 49500,
@@ -41834,7 +41834,7 @@
                         }
                     ],
                     "class": "Instance",
-                    "instanceName": "X3",
+                    "instanceName": "XA3",
                     "layer": "PR",
                     "libpath": "",
                     "name": "REYTR_EONX1_CV",
@@ -41842,8 +41842,8 @@
                     "subcktInstance": {
                         "class": "cIcSpice::SubcktInstance",
                         "deviceName": "subckt",
-                        "groupName": "X",
-                        "name": "X3",
+                        "groupName": "XA",
+                        "name": "XA3",
                         "nodes": [
                             "A",
                             "B",
@@ -41921,6 +41921,100 @@
                     "x2": 81000,
                     "y1": 26500,
                     "y2": 57500
+                },
+                {
+                    "abstract": false,
+                    "boundaryIgnoreRouting": false,
+                    "cellused": true,
+                    "children": [
+                        {
+                            "angle": "",
+                            "cell": "REYTR_cut_M1M3_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "",
+                            "name": "REYTR_cut_M1M3_2x1",
+                            "net": "",
+                            "x1": 13700,
+                            "x2": 22500,
+                            "xcell": 0,
+                            "y1": 6500,
+                            "y2": 9900,
+                            "ycell": 0
+                        },
+                        {
+                            "angle": "",
+                            "cell": "REYTR_cut_M1M3_2x1",
+                            "children": [
+                            ],
+                            "class": "Instance",
+                            "instanceName": "",
+                            "layer": "PR",
+                            "libpath": "",
+                            "name": "REYTR_cut_M1M3_2x1",
+                            "net": "",
+                            "x1": 13700,
+                            "x2": 22500,
+                            "xcell": 0,
+                            "y1": 38500,
+                            "y2": 41900,
+                            "ycell": 0
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M3",
+                            "net": "",
+                            "x1": 7500,
+                            "x2": 18000,
+                            "y1": 6500,
+                            "y2": 9500
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M3",
+                            "net": "",
+                            "x1": 7500,
+                            "x2": 18000,
+                            "y1": 38500,
+                            "y2": 41500
+                        },
+                        {
+                            "class": "Rect",
+                            "layer": "M3",
+                            "net": "",
+                            "x1": 7500,
+                            "x2": 10500,
+                            "y1": 6500,
+                            "y2": 41500
+                        },
+                        {
+                            "class": "Text",
+                            "layer": "TXT",
+                            "name": "A",
+                            "net": "",
+                            "x1": 13500,
+                            "x2": 13500,
+                            "y1": 6500,
+                            "y2": 6500
+                        }
+                    ],
+                    "class": "cIcCore::Route",
+                    "has_pr": false,
+                    "layer": "PR",
+                    "libcell": false,
+                    "libpath": "",
+                    "meta": {
+                    },
+                    "name": "A",
+                    "net": "",
+                    "physicalOnly": false,
+                    "x1": 7500,
+                    "x2": 22500,
+                    "y1": 6500,
+                    "y2": 41900
                 },
                 {
                     "abstract": false,
@@ -42126,100 +42220,6 @@
                             "libpath": "",
                             "name": "REYTR_cut_M1M3_2x1",
                             "net": "",
-                            "x1": 13700,
-                            "x2": 22500,
-                            "xcell": 0,
-                            "y1": 6500,
-                            "y2": 9900,
-                            "ycell": 0
-                        },
-                        {
-                            "angle": "",
-                            "cell": "REYTR_cut_M1M3_2x1",
-                            "children": [
-                            ],
-                            "class": "Instance",
-                            "instanceName": "",
-                            "layer": "PR",
-                            "libpath": "",
-                            "name": "REYTR_cut_M1M3_2x1",
-                            "net": "",
-                            "x1": 13700,
-                            "x2": 22500,
-                            "xcell": 0,
-                            "y1": 38500,
-                            "y2": 41900,
-                            "ycell": 0
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M3",
-                            "net": "",
-                            "x1": 7500,
-                            "x2": 18000,
-                            "y1": 6500,
-                            "y2": 9500
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M3",
-                            "net": "",
-                            "x1": 7500,
-                            "x2": 18000,
-                            "y1": 38500,
-                            "y2": 41500
-                        },
-                        {
-                            "class": "Rect",
-                            "layer": "M3",
-                            "net": "",
-                            "x1": 7500,
-                            "x2": 10500,
-                            "y1": 6500,
-                            "y2": 41500
-                        },
-                        {
-                            "class": "Text",
-                            "layer": "TXT",
-                            "name": "A",
-                            "net": "",
-                            "x1": 13500,
-                            "x2": 13500,
-                            "y1": 6500,
-                            "y2": 6500
-                        }
-                    ],
-                    "class": "cIcCore::Route",
-                    "has_pr": false,
-                    "layer": "PR",
-                    "libcell": false,
-                    "libpath": "",
-                    "meta": {
-                    },
-                    "name": "A",
-                    "net": "",
-                    "physicalOnly": false,
-                    "x1": 7500,
-                    "x2": 22500,
-                    "y1": 6500,
-                    "y2": 41900
-                },
-                {
-                    "abstract": false,
-                    "boundaryIgnoreRouting": false,
-                    "cellused": true,
-                    "children": [
-                        {
-                            "angle": "",
-                            "cell": "REYTR_cut_M1M3_2x1",
-                            "children": [
-                            ],
-                            "class": "Instance",
-                            "instanceName": "",
-                            "layer": "PR",
-                            "libpath": "",
-                            "name": "REYTR_cut_M1M3_2x1",
-                            "net": "",
                             "x1": 13500,
                             "x2": 22300,
                             "xcell": 0,
@@ -42357,15 +42357,6 @@
                     "y2": 73500
                 },
                 {
-                    "class": "Rect",
-                    "layer": "M2",
-                    "net": "",
-                    "x1": 13500,
-                    "x2": 22700,
-                    "y1": 6300,
-                    "y2": 10100
-                },
-                {
                     "class": "Port",
                     "layer": "M1",
                     "name": "A",
@@ -42452,8 +42443,8 @@
                     {
                         "class": "cIcSpice::SubcktInstance",
                         "deviceName": "subckt",
-                        "groupName": "X",
-                        "name": "X1",
+                        "groupName": "XA",
+                        "name": "XA1",
                         "nodes": [
                             "A",
                             "AN",
@@ -42467,8 +42458,8 @@
                     {
                         "class": "cIcSpice::SubcktInstance",
                         "deviceName": "subckt",
-                        "groupName": "X",
-                        "name": "X2",
+                        "groupName": "XA",
+                        "name": "XA2",
                         "nodes": [
                             "B",
                             "BN",
@@ -42482,8 +42473,8 @@
                     {
                         "class": "cIcSpice::SubcktInstance",
                         "deviceName": "subckt",
-                        "groupName": "X",
-                        "name": "X3",
+                        "groupName": "XA",
+                        "name": "XA3",
                         "nodes": [
                             "A",
                             "B",
@@ -42514,11 +42505,11 @@
                 {
                     "instances": [
                         {
-                            "inst": "X1",
+                            "inst": "XA1",
                             "node": "A"
                         },
                         {
-                            "inst": "X3",
+                            "inst": "XA3",
                             "node": "A"
                         }
                     ],
@@ -42527,11 +42518,11 @@
                 {
                     "instances": [
                         {
-                            "inst": "X1",
+                            "inst": "XA1",
                             "node": "Y"
                         },
                         {
-                            "inst": "X3",
+                            "inst": "XA3",
                             "node": "AN"
                         }
                     ],
@@ -42540,15 +42531,15 @@
                 {
                     "instances": [
                         {
-                            "inst": "X1",
+                            "inst": "XA1",
                             "node": "AVDD"
                         },
                         {
-                            "inst": "X2",
+                            "inst": "XA2",
                             "node": "AVDD"
                         },
                         {
-                            "inst": "X3",
+                            "inst": "XA3",
                             "node": "AVDD"
                         }
                     ],
@@ -42557,15 +42548,15 @@
                 {
                     "instances": [
                         {
-                            "inst": "X1",
+                            "inst": "XA1",
                             "node": "AVSS"
                         },
                         {
-                            "inst": "X2",
+                            "inst": "XA2",
                             "node": "AVSS"
                         },
                         {
-                            "inst": "X3",
+                            "inst": "XA3",
                             "node": "AVSS"
                         }
                     ],
@@ -42574,11 +42565,11 @@
                 {
                     "instances": [
                         {
-                            "inst": "X2",
+                            "inst": "XA2",
                             "node": "A"
                         },
                         {
-                            "inst": "X3",
+                            "inst": "XA3",
                             "node": "B"
                         }
                     ],
@@ -42587,11 +42578,11 @@
                 {
                     "instances": [
                         {
-                            "inst": "X2",
+                            "inst": "XA2",
                             "node": "Y"
                         },
                         {
-                            "inst": "X3",
+                            "inst": "XA3",
                             "node": "BN"
                         }
                     ],
@@ -42600,7 +42591,7 @@
                 {
                     "instances": [
                         {
-                            "inst": "X3",
+                            "inst": "XA3",
                             "node": "Y"
                         }
                     ],

@@ -242,9 +242,9 @@ MP4 Y AN NP2 AVDD PCHDL
 .ends EONX1_CV
 
 .subckt EOX1_CV A B Y AVDD AVSS
-X1 A AN AVDD AVSS IVX1_CV
-X2 B BN AVDD AVSS IVX1_CV
-X3 A B AN BN Y AVDD AVSS EONX1_CV
+XA1 A AN AVDD AVSS IVX1_CV
+XA2 B BN AVDD AVSS IVX1_CV
+XA3 A B AN BN Y AVDD AVSS EONX1_CV
 .ends EOX1_CV
 
 *-----------------------------------------------------------------------------

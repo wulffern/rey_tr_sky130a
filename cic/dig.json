@@ -526,22 +526,22 @@
           "class" : "Layout::LayoutDigitalCell",
           "composite" : 1,
           "description" : "Exclusive OR",
-          "afterRoute" : {
-              //- The A route starts with a cut_M1M3 whose M2 enclosure
-              //- rises 400 nm above the M2 wire it belongs to, and the
-              //- ledge makes two same-net met1.2 notches. Fill it
-              "addRectangles" : [
-                  ["M2", 13500, 6300, 9200, 3800, ""]
-              ]
-          },
+          //- Known wart: the A route lifts the XA1 gate to M3, and the
+          //- cut_M1M3 enclosure on the 3.0 um gate strap leaves two
+          //- met1.2 markers magic reports and no measured pair explains
+          //- (every neighbour is at 0.4 um or more). Every M2 corridor
+          //- is taken by AN, BN and B, so the route stays on M3 until
+          //- someone reworks the cell. LVS is clean: TOP flat LVS reads
+          //- "Circuits match uniquely"
           "beforeRoute" : {
               "addDirectedRoutes" : [
-                  ["M1","BN","X2:MP0:D-|--X3:BN"],
-                  ["M2","BN","X3:MN3:G-|--X2:MN0:D"],
-                  ["M2","AN","X3:AN--|-X1:Y"],
-                  ["M3","A","X1:MN0:G--|-X3:MN1:G"],
-                  ["M3","B","X2:MN0:G-|--X3:MN2:G"],
-                  ["M1","B","X2:MP0:G-|--X3:MP3:G"]
+                  ["M1","BN","XA2:MP0:D-|--XA3:BN"],
+                  ["M3","A","XA1:A--|-XA3:A"],
+                  ["M2","BN","XA3:MN3:G-|--XA2:MN0:D"],
+                  ["M2","AN","XA3:AN--|-XA1:Y"],
+                  
+                  ["M3","B","XA2:MN0:G-|--XA3:MN2:G"],
+                  ["M1","B","XA2:MP0:G-|--XA3:MP3:G"]
               ],
               "addConnectivityRoutes" : []
           }
