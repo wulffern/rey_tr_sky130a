@@ -9,6 +9,9 @@ on:
       - 'design/**.sym'
       - 'info.yaml'
       - 'config.yaml'
+      - 'cic/**'
+      - 'work/**'
+      - '.github/workflows/**'
   workflow_dispatch:
 
 concurrency:
