@@ -22,4 +22,11 @@ CELLS = REYTR_TOP REYTR_IVX1_CV REYTR_IVX2_CV REYTR_IVX4_CV REYTR_IVX8_CV \
         REYTR_SWX2_CV REYTR_SWX4_CV REYTR_TGPD_CV REYTR_TIEH_CV REYTR_TIEL_CV REYTR_TAPCELLB_CV \
         REYTR_RPPO2 REYTR_RPPO4 REYTR_RPPO8 REYTR_RPPO16 REYTR_CAPX1
 
+#- Flat extraction for LVS: the leaf cells carry no taps on purpose, so
+#- hierarchical extraction fails them on floating bulk. Flat resolves
+#- wells against the taps in TOP and catches cross-cell shorts
+LVSTCL=lvsflat.tcl
+NETGENSETUP=netgen_flat_setup.tcl
+OPT=--noprop
+
 include ../tech/make/core.make

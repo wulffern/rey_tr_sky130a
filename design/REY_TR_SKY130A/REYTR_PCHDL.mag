@@ -3,17 +3,17 @@ tech sky130A
 magscale 1 2
 timestamp 1785967200
 << checkpaint >>
-rect 0 0 870 320
+rect 0 0 990 320
 << pdiff >>
 rect 180 40 360 120
 rect 180 120 360 200
 rect 180 200 360 280
 << ntap >>
-rect 780 -40 960 40
-rect 780 40 960 120
-rect 780 120 960 200
-rect 780 200 960 280
-rect 780 280 960 360
+rect 900 -40 1080 40
+rect 900 40 1080 120
+rect 900 120 1080 200
+rect 900 200 1080 280
+rect 900 280 1080 360
 << poly >>
 rect 120 -16 720 16
 rect 120 144 720 176
@@ -21,17 +21,17 @@ rect 120 304 720 336
 rect 540 120 720 200
 << locali >>
 rect 540 130 720 190
-rect 780 -40 960 40
+rect 900 -40 1080 40
 rect 180 50 360 110
 rect 180 50 360 110
-rect 780 40 960 120
+rect 900 40 1080 120
 rect 540 130 720 190
-rect 780 120 960 200
-rect 780 120 960 200
+rect 900 120 1080 200
+rect 900 120 1080 200
 rect 180 210 360 270
 rect 180 210 360 270
-rect 780 200 960 280
-rect 780 280 960 360
+rect 900 200 1080 280
+rect 900 280 1080 360
 << pcontact >>
 rect 570 140 600 160
 rect 570 160 600 180
@@ -40,8 +40,8 @@ rect 600 160 660 180
 rect 660 140 690 160
 rect 660 160 690 180
 << ntapc >>
-rect 840 40 900 120
-rect 840 200 900 280
+rect 960 40 1020 120
+rect 960 200 1020 280
 << pdcontact >>
 rect 210 60 240 80
 rect 210 80 240 100
@@ -56,16 +56,16 @@ rect 240 240 300 260
 rect 300 220 330 240
 rect 300 240 330 260
 << nwell >>
-rect 0 -120 1020 440
+rect 0 -120 1140 440
 << labels >>
 flabel locali s 540 130 720 190 0 FreeSans 400 0 0 0 G
 port 2 nsew signal bidirectional
 flabel locali s 180 50 360 110 0 FreeSans 400 0 0 0 S
 port 3 nsew signal bidirectional
-flabel locali s 780 120 960 200 0 FreeSans 400 0 0 0 B
+flabel locali s 900 120 1080 200 0 FreeSans 400 0 0 0 B
 port 4 nsew signal bidirectional
 flabel locali s 180 210 360 270 0 FreeSans 400 0 0 0 D
 port 1 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 870 320
+string FIXED_BBOX 0 0 990 320
 << end >>

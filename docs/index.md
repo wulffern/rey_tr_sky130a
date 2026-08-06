@@ -55,18 +55,33 @@ minimum. Adjacent resistors can share a guard wall by placing them
 with `xoffset=-2.4`, as `REYTR_TOP` demonstrates: four resistors, five
 guard walls instead of eight.
 
-## Cell size
+## Cell size, and why the cells are not smaller
 
-The transistor pattern is 16 columns, two filler columns narrower than
-the jnw original: a unit transistor is 43.5 um wide instead of 49.5,
-12% smaller, with the double diffusion contacts kept. The route grids
-stay at 30/40 — shrinking them breaks the 0.17 um contact minimum and
-walks coordinates off the 5 nm grid, so with this pattern architecture
-the grid is effectively minimum. A square grid was also tried: 30/30
-drives the contacts under the same minimum, and 40/40 grows every cell
-33% in x. The rectangular grid is deliberate — the vertical pitch
-carries the contact and strap stack, the horizontal pitch only carries
-track spacing, and each sits at its own DRC floor.
+Shrinking was tried and measured, and every road is closed:
+
+- Trimming filler columns from the 18 column transistor pattern (one
+  or two) moves the tap column, and the TOP power drops then cross
+  cell-internal metal: **the two column trim shorted AVDD to AVSS**,
+  DRC clean and invisible to hierarchical LVS. Only the flat LVS flow
+  caught it. The pattern stays 18 columns.
+- Route grids below 30/40 break the 0.17 um contact minimum (licon.1),
+  and grids whose x1.2 multiples miss 50 dbu walk the resistors off
+  the 5 nm grid.
+- A square grid: 30/30 hits the same contact minimum, 40/40 grows
+  every cell 33% in x. The rectangle is deliberate — vertical pitch
+  carries the contact stack, horizontal only track spacing.
+
+Smaller cells need a contact redesign, not a rule tweak.
+
+## LVS: the flat flow
+
+The leaf cells carry no taps on purpose, so hierarchical extraction
+fails them on floating bulk. This repo uses the flat flow from
+tech_sky130A (`LVSTCL=lvsflat.tcl` in `work/Makefile`): magic extracts
+the whole tree with `ext2spice hierarchy off`, wells resolve against
+the taps that are actually there, and cross-cell shorts are caught by
+geometry. `make lvs CELL=REYTR_TOP` is the library's LVS gate and
+reads "Circuits match uniquely".
 
 ## Capacitors
 

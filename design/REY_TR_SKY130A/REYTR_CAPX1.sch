@@ -7,7 +7,7 @@ E {}
 C {devices/iopin.sym} 0 0 0 0 {name=p0 lab=A}
 C {devices/iopin.sym} 0 20 0 0 {name=p1 lab=B}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 400 0 0 0 {name=C1
-L=5 W=5 
+L=5 W=4.8 
 model=cap_mim_m3_1
 m=1
 spiceprefix=X

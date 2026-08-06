@@ -3,84 +3,84 @@ tech sky130A
 magscale 1 2
 timestamp 1785967200
 << checkpaint >>
-rect 0 0 1740 800
+rect 0 0 1980 800
 << locali >>
-rect 600 210 750 270
-rect 600 530 750 590
-rect 750 210 1140 270
-rect 750 530 1140 590
-rect 750 210 810 590
-rect 210 130 270 670
-rect 1470 130 1530 670
-rect 150 130 330 190
-rect 510 210 690 270
+rect 720 210 870 270
+rect 720 530 870 590
+rect 870 210 1260 270
+rect 870 530 1260 590
+rect 870 210 930 590
+rect 330 130 390 670
+rect 1590 130 1650 670
+rect 270 130 450 190
+rect 630 210 810 270
 << poly >>
-rect 150 144 1590 176
-rect 150 304 1590 336
-rect 150 464 1590 496
-rect 150 624 1590 656
+rect 270 144 1710 176
+rect 270 304 1710 336
+rect 270 464 1710 496
+rect 270 624 1710 656
 << m3 >>
-rect 1050 0 1226 800
-rect 510 0 686 800
-rect 1050 0 1226 800
-rect 510 0 686 800
+rect 1170 0 1346 800
+rect 630 0 806 800
+rect 1170 0 1346 800
+rect 630 0 806 800
 use REYTR_NCHDL MN0 
 transform 1 0 0 0 1 0
-box 0 0 870 320
+box 0 0 990 320
 use REYTR_NCHDL MN1 
 transform 1 0 0 0 1 160
-box 0 160 870 480
+box 0 160 990 480
 use REYTR_NCHDL MN2 
 transform 1 0 0 0 1 320
-box 0 320 870 640
+box 0 320 990 640
 use REYTR_NCHDL MN3 
 transform 1 0 0 0 1 480
-box 0 480 870 800
+box 0 480 990 800
 use REYTR_PCHDL MP0 
-transform 1 0 870 0 1 0
-box 870 0 1740 320
+transform 1 0 990 0 1 0
+box 990 0 1980 320
 use REYTR_PCHDL MP1 
-transform 1 0 870 0 1 160
-box 870 160 1740 480
+transform 1 0 990 0 1 160
+box 990 160 1980 480
 use REYTR_PCHDL MP2 
-transform 1 0 870 0 1 320
-box 870 320 1740 640
+transform 1 0 990 0 1 320
+box 990 320 1980 640
 use REYTR_PCHDL MP3 
-transform 1 0 870 0 1 480
-box 870 480 1740 800
+transform 1 0 990 0 1 480
+box 990 480 1980 800
 use REYTR_cut_M1M4_2x1 xcut0 
-transform 1 0 1050 0 1 50
-box 1050 50 1226 118
+transform 1 0 1170 0 1 50
+box 1170 50 1346 118
 use REYTR_cut_M1M4_2x1 xcut1 
-transform 1 0 1050 0 1 370
-box 1050 370 1226 438
+transform 1 0 1170 0 1 370
+box 1170 370 1346 438
 use REYTR_cut_M1M4_2x1 xcut2 
-transform 1 0 1050 0 1 370
-box 1050 370 1226 438
+transform 1 0 1170 0 1 370
+box 1170 370 1346 438
 use REYTR_cut_M1M4_2x1 xcut3 
-transform 1 0 1050 0 1 690
-box 1050 690 1226 758
+transform 1 0 1170 0 1 690
+box 1170 690 1346 758
 use REYTR_cut_M1M4_2x1 xcut4 
-transform 1 0 510 0 1 50
-box 510 50 686 118
+transform 1 0 630 0 1 50
+box 630 50 806 118
 use REYTR_cut_M1M4_2x1 xcut5 
-transform 1 0 510 0 1 370
-box 510 370 686 438
+transform 1 0 630 0 1 370
+box 630 370 806 438
 use REYTR_cut_M1M4_2x1 xcut6 
-transform 1 0 510 0 1 370
-box 510 370 686 438
+transform 1 0 630 0 1 370
+box 630 370 806 438
 use REYTR_cut_M1M4_2x1 xcut7 
-transform 1 0 510 0 1 690
-box 510 690 686 758
+transform 1 0 630 0 1 690
+box 630 690 806 758
 << labels >>
-flabel locali s 150 130 330 190 0 FreeSans 400 0 0 0 A
+flabel locali s 270 130 450 190 0 FreeSans 400 0 0 0 A
 port 1 nsew signal bidirectional
-flabel locali s 510 210 690 270 0 FreeSans 400 0 0 0 Y
+flabel locali s 630 210 810 270 0 FreeSans 400 0 0 0 Y
 port 2 nsew signal bidirectional
-flabel m3 s 1050 0 1226 800 0 FreeSans 400 0 0 0 AVDD
+flabel m3 s 1170 0 1346 800 0 FreeSans 400 0 0 0 AVDD
 port 3 nsew signal bidirectional
-flabel m3 s 510 0 686 800 0 FreeSans 400 0 0 0 AVSS
+flabel m3 s 630 0 806 800 0 FreeSans 400 0 0 0 AVSS
 port 4 nsew signal bidirectional
 << properties >>
-string FIXED_BBOX 0 0 1740 800
+string FIXED_BBOX 0 0 1980 800
 << end >>

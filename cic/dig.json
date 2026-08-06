@@ -500,7 +500,15 @@
           "beforeRoute" : {
               "addDirectedRoutes" : [
                   ["PO","A","MN1:G-MP1:G"],
-                  ["PO","A","MN4:G-MP4:G"]
+                  ["PO","A","MN4:G-MP4:G"],
+                  ["M1","N1","MN1:D||MN2:S"],
+                  ["M1","Y","MN2:D||MN3:S"],
+                  ["M1","N3","MN3:D||MN4:S"],
+                  ["M1","NP1","MP1:D||MP2:S"],
+                  ["M1","AVDD","MP2:D||MP3:S"],
+                  ["M1","NP2","MP3:D||MP4:S"],
+                  ["M2","Y","MN2:D-|--MP1:S"],
+                  ["M2","Y","MN2:D-|--MP4:D"]
               ],
               "addConnectivityRoutes" : []
           },
@@ -518,13 +526,21 @@
           "class" : "Layout::LayoutDigitalCell",
           "composite" : 1,
           "description" : "Exclusive OR",
+          "afterRoute" : {
+              //- The A route starts with a cut_M1M3 whose M2 enclosure
+              //- rises 400 nm above the M2 wire it belongs to, and the
+              //- ledge makes two same-net met1.2 notches. Fill it
+              "addRectangles" : [
+                  ["M2", 13500, 6300, 9200, 3800, ""]
+              ]
+          },
           "beforeRoute" : {
               "addDirectedRoutes" : [
                   ["M1","BN","X2:MP0:D-|--X3:BN"],
-                  ["M1","BN","X3:MN3:G-|--X2:MN0:D"],
+                  ["M2","BN","X3:MN3:G-|--X2:MN0:D"],
                   ["M2","AN","X3:AN--|-X1:Y"],
-                  ["M1","A","X1:A$--|-X3:A$"],
-                  ["M2","B","X2:A$||X3:B"],
+                  ["M3","A","X1:MN0:G--|-X3:MN1:G"],
+                  ["M3","B","X2:MN0:G-|--X3:MN2:G"],
                   ["M1","B","X2:MP0:G-|--X3:MP3:G"]
               ],
               "addConnectivityRoutes" : []
