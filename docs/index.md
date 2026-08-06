@@ -83,6 +83,10 @@ the taps that are actually there, and cross-cell shorts are caught by
 geometry. `make lvs CELL=REYTR_TOP` is the library's LVS gate and
 reads "Circuits match uniquely".
 
+It has earned its place twice: it caught a power short that DRC allowed
+and hierarchical LVS could not see, and an exclusive or whose core was
+electrically open while leaf LVS matched it by pin symmetry.
+
 ## Capacitors
 
 `CAPX1` is one rey transistor unit wide (88 800 nm) so capacitor rows
