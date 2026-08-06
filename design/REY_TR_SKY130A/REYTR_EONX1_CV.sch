@@ -23,17 +23,17 @@ C {devices/lab_pin.sym} 460.0 0.0 2 0 {name=l3 sig_type=std_logic lab=AVSS }
 C {REY_TR_SKY130A/REYTR_NCHDL.sym} 400 170.0 0 0 {name=XMN2}
 N 440.0 120.0 440.0 140.0 {lab=Y}
 C {devices/lab_pin.sym} 440.0 120.0 3 0 {name=l4 sig_type=std_logic lab=Y }
-N 380.0 170.0 400.0 170.0 {lab=B}
-C {devices/lab_pin.sym} 380.0 170.0 0 0 {name=l5 sig_type=std_logic lab=B }
-N 440.0 220.0 440.0 200.0 {lab=N1}
-C {devices/lab_pin.sym} 440.0 220.0 1 0 {name=l6 sig_type=std_logic lab=N1 }
+N 380.0 170.0 400.0 170.0 {lab=BN}
+C {devices/lab_pin.sym} 380.0 170.0 0 0 {name=l5 sig_type=std_logic lab=BN }
+N 440.0 220.0 440.0 200.0 {lab=N3}
+C {devices/lab_pin.sym} 440.0 220.0 1 0 {name=l6 sig_type=std_logic lab=N3 }
 N 460.0 170.0 440.0 170.0 {lab=AVSS}
 C {devices/lab_pin.sym} 460.0 170.0 2 0 {name=l7 sig_type=std_logic lab=AVSS }
 C {REY_TR_SKY130A/REYTR_NCHDL.sym} 400 340.0 0 0 {name=XMN3}
-N 440.0 290.0 440.0 310.0 {lab=N3}
-C {devices/lab_pin.sym} 440.0 290.0 3 0 {name=l8 sig_type=std_logic lab=N3 }
-N 380.0 340.0 400.0 340.0 {lab=BN}
-C {devices/lab_pin.sym} 380.0 340.0 0 0 {name=l9 sig_type=std_logic lab=BN }
+N 440.0 290.0 440.0 310.0 {lab=N1}
+C {devices/lab_pin.sym} 440.0 290.0 3 0 {name=l8 sig_type=std_logic lab=N1 }
+N 380.0 340.0 400.0 340.0 {lab=B}
+C {devices/lab_pin.sym} 380.0 340.0 0 0 {name=l9 sig_type=std_logic lab=B }
 N 440.0 390.0 440.0 370.0 {lab=Y}
 C {devices/lab_pin.sym} 440.0 390.0 1 0 {name=l10 sig_type=std_logic lab=Y }
 N 460.0 340.0 440.0 340.0 {lab=AVSS}

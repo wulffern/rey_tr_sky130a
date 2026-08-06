@@ -500,22 +500,29 @@
           "beforeRoute" : {
               "addDirectedRoutes" : [
                   ["PO","A","MN1:G-MP1:G"],
+                  ["PO","B","MN3:G-MP3:G"],
+                  ["PO","BN","MN2:G-MP2:G"],
                   ["PO","A","MN4:G-MP4:G"],
-                  ["M1","N1","MN1:D||MN2:S"],
-                  ["M1","Y","MN2:D||MN3:S"],
-                  ["M1","N3","MN3:D||MN4:S"],
+                  //["M1","N1","MN1:D||MN2:S"],
+                  //["M1","Y","MN2:D||MN3:S"],
+                  //["M1","N3","MN3:D||MN4:S"],
                   ["M1","NP1","MP1:D||MP2:S"],
-                  ["M1","AVDD","MP2:D||MP3:S"],
-                  ["M1","NP2","MP3:D||MP4:S"],
-                  ["M2","Y","MN2:D-|--MP1:S"],
-                  ["M2","Y","MN2:D-|--MP4:D"]
+                  //["M1","AVDD","MP2:D||MP3:S"],
+                  ["M1","NP2","MP3:D||MP4:S"]
+                  //["M2","Y","MN2:D-|--MP1:S"],
+                  //["M2","Y","MN2:D-|--MP4:D"]
               ],
-              "addConnectivityRoutes" : []
+              "addConnectivityRoutes" : [
+                  ["M1","^Y$","-|--","onTopL"],
+                  ["M1","^N1$","--|-","onTopL"],
+                  ["M2","^N3$","-|--","onTopL"]
+
+              ]
           },
           "afterRoute"  : {
               "addPortOnRects" : [
                   ["A","M1","MN1:G"],
-                  ["B","M1","MN2:G"],
+                  ["B","M1","MN3:G"],
                   ["AN","M1","MN4:G"],
                   ["BN","M1","MP2:G"]
               ]
@@ -535,15 +542,18 @@
           //- "Circuits match uniquely"
           "beforeRoute" : {
               "addDirectedRoutes" : [
-                  ["M1","BN","XA2:MP0:D-|--XA3:BN"],
-                  ["M3","A","XA1:A--|-XA3:A"],
-                  ["M2","BN","XA3:MN3:G-|--XA2:MN0:D"],
-                  ["M2","AN","XA3:AN--|-XA1:Y"],
-                  
-                  ["M3","B","XA2:MN0:G-|--XA3:MN2:G"],
-                  ["M1","B","XA2:MP0:G-|--XA3:MP3:G"]
+                  //["M1","BN","XA2:MP0:D-|--XA3:BN"],
+                  ["M2","A","XA1:A--|-XA3:A"],
+                  //["M1","BN","XA3:MN3:G-|--XA2:MN0:D"],
+                  ["M1","AN","XA3:AN--|-XA1:Y","offsethighend"]
+                  //["M2","B","XA2:MN0:G-|--XA3:MN2:G"],
+                  //["M2","B","XA2:MP0:G-|--XA3:MP3:G"]
               ],
-              "addConnectivityRoutes" : []
+              "addConnectivityRoutes" : [
+                  ["M1","^BN$","--|-","onTopR"],
+                  ["M2","^B$","-|--","onTopB"]
+
+              ]
           }
         },
 

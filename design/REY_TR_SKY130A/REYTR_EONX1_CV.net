@@ -2,7 +2,7 @@
  REYTR_EONX1_CV
  N1
 MN1/D
-MN2/S
+MN3/D
 
  A
 MN1/G
@@ -22,17 +22,17 @@ MN3/S
 MP1/S
 MP4/D
 
- B
+ BN
 MN2/G
-MP3/G
+MP2/G
 
  N3
-MN3/D
+MN2/S
 MN4/S
 
- BN
+ B
 MN3/G
-MP2/G
+MP3/G
 
  AN
 MN4/G
