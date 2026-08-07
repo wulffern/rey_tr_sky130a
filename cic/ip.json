@@ -1,20 +1,16 @@
 {
-	"options" :
-	{
-		"ignoreSetYoffsetHalf" : false,
-		"prefix" : "REYTR_",
-		"topcells" : [
-            "TOP",
-			"CAPX1"
-        ]
-	},
-	"include" : [
-		"dmos_sky130nm_core.json",
-		"resistors.json",
-		"dig.json",
-		"capacitor.json",
-		"components.json"
-
-	],
-    "cells" : []
+  "options": {
+    "ignoreSetYoffsetHalf": false,
+    "prefix": "REYTR_",
+    "topcells": [
+      "TOP",
+      "CAPX1"
+    ]
+  },
+  "include": [
+    "dmos_sky130nm_core.json",
+    "dig.json",
+    "components.json"
+  ],
+  "cells": []
 }
