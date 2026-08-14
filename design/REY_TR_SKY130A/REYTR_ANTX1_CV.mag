@@ -44,10 +44,10 @@ rect -45 -33 -33 33
 rect 33 -33 45 33
 rect -45 -39 45 -33
 << labels >>
-rlabel psubdiffcont 0 -130 0 -130 0 AVSS
-port 3 nsew
-rlabel ndiodec 0 0 0 0 0 A
-port 4 nsew
+flabel metal1 s -45 -39 45 39 0 FreeSans 400 0 0 0 A
+port 1 nsew signal bidirectional
+flabel locali s -147 -147 147 -113 0 FreeSans 400 0 0 0 AVSS
+port 2 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX -130 -130 130 130
 string gencell sky130_fd_pr__diode_pw2nd_05v5
