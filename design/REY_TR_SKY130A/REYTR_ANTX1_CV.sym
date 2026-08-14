@@ -1,0 +1,15 @@
+v {xschem version=3.0.0 file_version=1.2 }
+K {type=subcircuit
+format="@name @pinlist @symname "
+template="name=x1 "
+} 
+L 4 0 -20 0 -10 {}
+L 4 -10 10 10 10 {}
+L 4 -10 -10 10 -10 {}
+L 4 -10 -10 0 10 {}
+L 4 10 -10 0 10 {}
+L 4 0 10 0 20 {}
+T {@symname} 15 -10 0 0 0.16 0.16 { vcenter=true}
+T {@name} 15 5 0 0 0.16 0.16 { vcenter=true}
+B 5 -4 -24 4 -16 {name=A dir=inout pinnumber=1}
+B 5 -4 16 4 24 {name=AVSS dir=inout pinnumber=2}
