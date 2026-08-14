@@ -8,8 +8,8 @@ C {devices/iopin.sym} 0 0 0 0 {name=p0 lab=A}
 C {devices/iopin.sym} 0 20 0 0 {name=p1 lab=AVSS}
 C {sky130_fd_pr/diode.sym} 400 0 0 0 {name=D1
 model=diode_pw2nd_05v5
-area=202.5p
-perim=1.8u
+area=2.025e11
+perim=1.8e6
 spiceprefix=X
 }
 N 400.0 -40.0 400.0 -20.0 {lab=A}
